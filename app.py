@@ -1,8 +1,8 @@
 import os
 from flask import Flask
 
-app = Flask('plancksconstant')
-app = Flask(__name__.split('.')[0])
+#app = Flask('plancksconstant')
+app = Flask('constant')
 
 @app.route('/physics/planck')
 def hello():
