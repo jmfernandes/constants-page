@@ -7,7 +7,7 @@ app = Flask(__name__.split('.')[0])
 
 @app.route('/physics/planck')
 def hello():
-    dict = {'value': 6.62606957E-34, 'units': 'joule*seconds', 'citation': 'http://en.wikipedia.org/wiki/Planck_constant'};
+    dict = {'value': 6.62606957E-34, 'units': 'joule*seconds', 'citation': 'http://en.wikipedia.org/wiki/Planck_constant','name': 'Planck's constant'}};
     data = json.dumps(dict)
     return data
 
