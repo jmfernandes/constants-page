@@ -1,12 +1,15 @@
 import os
+import json
 from flask import Flask
 
-#app = Flask('plancksconstant')
-app = Flask('constant')
+app = Flask('plancksconstant')
+app = Flask(__name__.split('.')[0])
 
 @app.route('/physics/planck')
 def hello():
-    return '6.626068E-34'
+    dict = {'value': 5, 'units': 'meters', 'citation': 'wikipedia'};
+    data = json.dumps(dict)
+    return data
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
