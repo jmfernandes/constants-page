@@ -4,7 +4,7 @@ from flask import Flask
 app = Flask('plancksconstant')
 app = Flask(__name__.split('.')[0])
 
-@app.route('/')
+@app.route('/constants/')
 def hello():
     return '6.626068E-34'
 def hello2():
