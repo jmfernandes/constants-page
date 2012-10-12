@@ -4,7 +4,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/physics/planck')
+@app.route('/physics/planck_constant')
 def hello():
     dict = {'value': 6.62606957E-34, 'units': 'joule*seconds', 'citation': 'http://en.wikipedia.org/wiki/Planck_constant','name': 'planck constant'};
     data = json.dumps(dict)
