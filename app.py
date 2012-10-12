@@ -14,9 +14,15 @@ def hello():
     data = json.dumps(dict)
     return data
 
-@app.route('/physics/standard_gravity')
+@app.route('/physics/standard_gravity', endpoint='physics')
 def hello():
     dict = {'value': 9.80665, 'units': 'meters/(seconds^2)', 'citation': 'http://en.wikipedia.org/wiki/Standard_gravity','name': 'standard gravity'};
+    data = json.dumps(dict)
+    return data
+
+@app.route('/physics/electron_mass', endpoint='physics')
+def hello():
+    dict = {'value': .510998910, 'units': 'mega electron Volts', 'citation': 'http://en.wikipedia.org/wiki/Electron_rest_mass','name': 'Electron rest mass'};
     data = json.dumps(dict)
     return data
 
