@@ -2,8 +2,7 @@ import os
 import json
 from flask import Flask
 
-app = Flask('plancksconstant')
-app = Flask(__name__.split('.')[0])
+app = Flask(__name__)
 
 @app.route('/physics/planck')
 def hello():
