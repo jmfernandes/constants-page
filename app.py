@@ -10,7 +10,7 @@ def hello():
     data = json.dumps(dict)
     return data
 
-@app.route('/physics/standardgravity')
+@app.route('/physics/standard_gravity')
 def hello():
     dict = {'value': 9.80665, 'units': 'meters/(seconds^2)', 'citation': 'http://en.wikipedia.org/wiki/Standard_gravity','name': 'standard gravity'};
     data = json.dumps(dict)
