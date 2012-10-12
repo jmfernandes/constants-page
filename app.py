@@ -4,13 +4,17 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/physics/planck_constant/')
+@app.route('/')
+def index():
+    pass
+
+@app.route('/physics/planck_constant')
 def hello():
     dict = {'value': 6.62606957E-34, 'units': 'joule*seconds', 'citation': 'http://en.wikipedia.org/wiki/Planck_constant','name': 'planck constant'};
     data = json.dumps(dict)
     return data
 
-@app.route('/physics/standard_gravity/')
+@app.route('/physics/standard_gravity')
 def hello():
     dict = {'value': 9.80665, 'units': 'meters/(seconds^2)', 'citation': 'http://en.wikipedia.org/wiki/Standard_gravity','name': 'standard gravity'};
     data = json.dumps(dict)
