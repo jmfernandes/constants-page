@@ -20,7 +20,7 @@ def hello():
     data = json.dumps(dict)
     return data
 
-@app.route('/physics/electron_mass')
+@app.route('/physics/electron_mass', endpoint='electron_mass')
 def hello():
     dict = {'value': .510998910, 'units': 'mega electron Volts', 'citation': 'http://en.wikipedia.org/wiki/Electron_rest_mass','name': 'Electron rest mass'};
     data = json.dumps(dict)
