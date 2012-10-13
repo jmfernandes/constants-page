@@ -22,7 +22,19 @@ def hello():
 
 @app.route('/physics/electron_mass', endpoint='electron_mass')
 def hello():
-    dict = {'value': .510998910, 'units': 'mega electron Volts', 'citation': 'http://en.wikipedia.org/wiki/Electron_rest_mass','name': 'Electron rest mass'};
+    dict = {'value': .510998910, 'units': 'mega electron*volts/c^2', 'citation': 'http://en.wikipedia.org/wiki/Electron_rest_mass','name': 'Electron rest mass'};
+    data = json.dumps(dict)
+    return data
+
+@app.route('/physics/proton_mass', endpoint='electron_mass')
+def hello():
+    dict = {'value': 938.272046, 'units': 'mega electron*volts/c^2', 'citation': 'http://en.wikipedia.org/wiki/Proton','name': 'Proton rest mass'};
+    data = json.dumps(dict)
+    return data
+
+@app.route('/physics/neutron_mass', endpoint='electron_mass')
+def hello():
+    dict = {'value': 939.565378, 'units': 'mega electron*volts/c^2', 'citation': 'http://en.wikipedia.org/wiki/Neutron','name': 'Neutron rest mass'};
     data = json.dumps(dict)
     return data
 
