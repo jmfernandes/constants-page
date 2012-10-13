@@ -38,6 +38,12 @@ def hello():
     data = json.dumps(dict)
     return data
 
+@app.route('/physics/elementary_charge', endpoint='elementary_charge')
+def hello():
+    dict = {'value': 1.602176565E-19, 'units': 'Coulomb', 'citation': 'http://en.wikipedia.org/wiki/Elementary_charge','name': 'Elementary charge'};
+    data = json.dumps(dict)
+    return data
+
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
     port = int(os.environ.get('PORT', 5000))
