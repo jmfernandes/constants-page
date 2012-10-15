@@ -14,6 +14,18 @@ def hello():
     data = json.dumps(dict)
     return data
 
+@app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
+def hello():
+    dict = {'value': 376.730313461, 'units': 'ohms', 'citation': 'http://physics.nist.gov/cgi-bin/cuu/Value?z0|search_for=universal_in!','name': 'Characteristic impedance of a vacuum'};
+    data = json.dumps(dict)
+    return data
+
+@app.route('/physics/vacuum_permittivity', endpoint='vacuum_permittivity')
+def hello():
+    dict = {'value': 8.854187817E-12, 'units': 'farad/meters', 'citation': 'http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!','name': 'vacuum permittivity'};
+    data = json.dumps(dict)
+    return data
+
 @app.route('/physics/standard_gravity', endpoint='standard_gravity')
 def hello():
     dict = {'value': 9.80665, 'units': 'meters/(seconds^2)', 'citation': 'http://en.wikipedia.org/wiki/Standard_gravity','name': 'standard gravity'};
