@@ -5,8 +5,8 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def index(name='index page'):
-    return template('<b>{{name}}</b>', name=name)
+def index():
+    return 'Index page'
 
 @app.route('/physics/planck_constant', endpoint='planck_constant')
 def hello():
