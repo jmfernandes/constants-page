@@ -6,12 +6,14 @@
         {% endblock head %}
     </head>
     <body>
-        <header>{% block header %}<u>Physics Constants</u><br>& nbsp;<br>{% endblock header %}</header>
+        <header>{% block header %}<u>Physics Constants</u>{% endblock header %}</header>
         {# Note: This assumes we *always* want a header #}
         {% block content %}
+        <p>
         <a href="http://constants.herokuapp.com/physics/planck_constant">Planck's Constant</a><br>
         <a href="http://constants.herokuapp.com/physics/standard_gravity">Standard Gravity</a><br>
         <a href="http://constants.herokuapp.com/physics/electron_mass">Electron Mass</a><br>
+        </p>
         {% endblock content %}
     </body>
 </html>
