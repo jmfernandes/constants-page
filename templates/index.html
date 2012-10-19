@@ -2,12 +2,12 @@
 <html>
     <head>
         {% block head %}
-        <h1>My First Heading</h1>
+        <h1>Index Page</h1>
         {% endblock head %}
     </head>
     <body>
-        <header>{% block header %}{% endblock header %}</header>
+        <header>{% block header %}body{% endblock header %}</header>
         {# Note: This assumes we *always* want a header #}
-        {% block content %}{% endblock content %}
+        {% block content %}body content{% endblock content %}
     </body>
 </html>
