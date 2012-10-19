@@ -1,11 +1,17 @@
-<!doctype html>
-<title>Index Page</title>
+<!DOCTYPE html>
 <html>
+    <head>
+        {% block head %}
+        {#
+        Default HEAD content goes here
+        with extra nested blocks for children to override
+        if needed.
+        #}
+        {% endblock head %}
+    </head>
     <body>
-        
-        <h1>My First Heading</h1>
-        
-        <p>My first paragraph.</p>
-        
+        <header>{% block header %}{% endblock header %}</header>
+        {# Note: This assumes we *always* want a header #}
+        {% block content %}{% endblock content %}
     </body>
 </html>
