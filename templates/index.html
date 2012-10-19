@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        {% block head %}
         <h1>Index Page</h1>
-        {% endblock head %}
         <link rel="stylesheet" href="/Static/mystyle.css">
     </head>
     <body>
-        <header>{% block header %}<u>Physics Constants</u>{% endblock header %}</header>
-        {# Note: This assumes we *always* want a header #}
-        {% block content %}
+        <header><u>Physics Constants</u></header>
         <p>
         <a href="http://constants.herokuapp.com/physics/planck_constant">Planck's Constant</a><br>
         <a href="http://constants.herokuapp.com/physics/standard_gravity">Standard Gravity</a><br>
@@ -20,6 +16,5 @@
         <a href="http://constants.herokuapp.com/physics/neutron_mass">Neutron Mass</a><br>
         <a href="http://constants.herokuapp.com/physics/elementary_charge">Elementray Charge</a><br>
         </p>
-        {% endblock content %}
     </body>
 </html>
