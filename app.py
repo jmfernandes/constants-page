@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Index page'
+    return <a href="/physics/planck_constant">{{title}}</a>
 
 @app.route('/physics/planck_constant', endpoint='planck_constant')
 def hello():
