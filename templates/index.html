@@ -8,6 +8,8 @@
     <body>
         <header>{% block header %}body{% endblock header %}</header>
         {# Note: This assumes we *always* want a header #}
-        {% block content %}body content{% endblock content %}
+        {% block content %}body content
+        <a href="http://www.w3schools.com/">Visit W3Schools</a>
+        {% endblock content %}
     </body>
 </html>
