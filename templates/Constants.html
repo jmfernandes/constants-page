@@ -31,29 +31,6 @@
             {
                 padding:15px; text-align: left
             }
-            .navbar-search {
-                position: relative;
-            }
-            
-            .navbar-search .search-query {
-                padding-left: 29px;
-            }
-            
-            .navbar-search .icon-search {
-                position: absolute;
-                top: 7px;
-                left: 11px;
-                background-image: url("http://twitter.github.com/bootstrap/assets/img/glyphicons-halflings-white.png");
-            }
-            
-            .navbar-search .search-query:focus, .navbar-search .search-query.focused {
-                padding-left: 30px;
-            }
-            
-            .search-query:focus + .icon-search {
-                background-image: url("http://twitter.github.com/bootstrap/assets/img/glyphicons-halflings.png");
-            }
-
         </style>
         <link rel="shortcut icon" href="ico/favicon.ico">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
@@ -78,7 +55,7 @@
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                         <form class="navbar-search pull-right">
-                            <input type="text" class="input-medium search-query">
+                            <input type="text" class="input-medium search-query" placeholder="Search">
                                 <button type="submit" class="btn">Search</button>
                                 </form>
                     </div><!--/.nav-collapse -->
