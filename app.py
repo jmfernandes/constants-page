@@ -10,7 +10,9 @@ def index():
     return  render_template('Constants.html')
 
 @app.route('/physics/planck_constant', endpoint='planck_constant')
-class something(object):
+class something():
+    def __init__(self):
+        self.hello()
     def hello():
         dict = {'value': 6.62606957E-34, 'units': 'joule*seconds', 'citation': 'http://en.wikipedia.org/wiki/Planck_constant','name': 'planck constant'};
         data = json.dumps(dict)
