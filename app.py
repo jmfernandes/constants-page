@@ -10,13 +10,13 @@ def index():
     return  render_template('Constants.html')
 
 @app.route('/physics/planck_constant', endpoint='planck_constant')
-class something():
+class something:
     def __init__(self):
         self.hello()
-    def hello():
-        dict = {'value': 6.62606957E-34, 'units': 'joule*seconds', 'citation': 'http://en.wikipedia.org/wiki/Planck_constant','name': 'planck constant'};
-        data = json.dumps(dict)
-        return data
+    def hello(self):
+        self.dict = {'value': 6.62606957E-34, 'units': 'joule*seconds', 'citation': 'http://en.wikipedia.org/wiki/Planck_constant','name': 'planck constant'};
+        self.data = json.dumps(self.dict)
+        return self.data
 
 @app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
 def hello():
