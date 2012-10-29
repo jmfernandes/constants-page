@@ -11,7 +11,7 @@ def index():
 
 @app.route('/physics/planck_constant', endpoint='planck_constant')
 def hello():
-    return  render_template('planch_constant.html')
+    return  render_template('planck_constant.html')
 
 @app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
 def hello():
