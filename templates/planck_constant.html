@@ -1,24 +1,22 @@
-<!DOCTYPE html>
-<html>
-<body>
-<p>
-Name: <span id="jname"></span><br /> 
-Age: <span id="jage"></span><br /> 
-Address: <span id="jstreet"></span><br /> 
-Phone: <span id="jphone"></span><br /> 
-</p>
-
-<script>
-var JSONObject= {
-"name":"John Johnson",
-"street":"Oslo West 555", 
-"age":33,
-"phone":"555 1234567"};
-document.getElementById("jname").innerHTML=JSONObject.name 
-document.getElementById("jage").innerHTML=JSONObject.age 
-document.getElementById("jstreet").innerHTML=JSONObject.street 
-document.getElementById("jphone").innerHTML=JSONObject.phone 
-</script>
-
-</body>
-</html>
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
