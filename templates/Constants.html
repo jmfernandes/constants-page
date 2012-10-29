@@ -126,6 +126,11 @@
         <script src="http://conversions.herokuapp.com/static/js/jquery.js"></script>
         <script src="http://conversions.herokuapp.com/static/js/bootstrap.js"></script>
         <script src="http://conversions.herokuapp.com/static/js/bootstrap.min.js"></script>
-        <script src="https://gist.github.com/3731223.js"> </script>
+        <script>
+            function getItemCreateTime(objectId){
+                var str = objectId.toString().slice(0,8);
+                var time = parseInt(str,16) * 1000;
+                return new Date(time);
+            }</script>
     </body>
 </html>
