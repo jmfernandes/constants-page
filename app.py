@@ -5,12 +5,6 @@ from flask import render_template
 
 app = Flask(__name__)
 
-function getItemCreateTime(objectId){
-    var str = objectId.toString().slice(0,8);
-    var time = parseInt(str,16) * 1000;
-    return new Date(time);
-}
-
 @app.route('/')
 def index():
     return  render_template('Constants.html')
