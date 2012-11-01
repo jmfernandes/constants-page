@@ -3,5 +3,5 @@
 "units": "joule*seconds",
 "name": "planck constant",
 "citation": "http://en.wikipedia.org/wiki/Planck_constant"
-"date": Date()
+"date": new Date()
 }
