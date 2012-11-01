@@ -15,13 +15,11 @@ def index():
 
 @app.route('/physics/planck_constant', endpoint='planck_constant')
 def index():
-    return  render_template('json/planck_constant.json')
+    return  render_template('planck_constant.html')
 
 @app.route('/physics/planck_constant_json', endpoint='planck_constant_json')
 def index():
-    dict = {'value': 6.62606957e-34, 'units': 'joule*seconds', 'citation': 'http://physics.nist.gov/cgi-bin/cuu/Value?z0|search_for=universal_in!','name': 'planck constant'};
-    data = json.dumps(dict)
-    return data
+    return render_template('json/planck_constant.json')
 
 @app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
 def index():
