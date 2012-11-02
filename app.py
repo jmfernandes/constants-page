@@ -15,7 +15,8 @@ def index():
 
 @app.route('/physics/planck_constant', endpoint='planck_constant')
 def index():
-    return  render_template('planck_constant.html')
+    data = 5
+    return  render_template('planck_constant.html',data=data)
 
 @app.route('/physics/planck_constant_json', endpoint='planck_constant_json')
 def index():
