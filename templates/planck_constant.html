@@ -4,10 +4,88 @@
         <head>
             <meta charset="utf-8">
             <title>planck constant</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="">
+            <meta name="author" content="">
+            <link rel="stylesheet" type="text/css" href="http://conversions.datanab.net/static/bootstrap.css" />
+        <style type="text/css">
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+            .sidebar-nav {
+                padding: 9px 0;
+            }
+            th
+            {
+                text-align: center
+            }
+            td
+            {
+                padding:15px; text-align: left
+            }
+            footer {
+                position:absolute;
+                bottom:0;
+                width:100%;
+                height:20px;   /* Height of the footer */
+                background:#6cf;
+            }
+        </style>
+        <link rel="shortcut icon" href="ico/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
         </head>
         <body>
-            <p>some text</p>
-            
+            <div class="navbar navbar-inverse navbar-fixed-top">
+                <div class="navbar-inner">
+                    <div class="container-fluid">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="brand" href="http://www.datanab.net/">Project name</a>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav">
+                                <li><a href="http://www.datanab.net/"><i class="icon-home icon-white"></i>Home</a></li>
+                                <li><a href="http://www.datanab.net/about"><i class="icon-info-sign icon-white"></i>About</a></li>
+                                <li><a href="http://www.datanab.net/contact"><i class="icon-user icon-white"></i>Contact</a></li>
+                            </ul>
+                            <form class="navbar-search pull-right">
+                                <input type="text" class="input-medium search-query" placeholder="Search">
+                                    <button type="submit" class="btn">Search</button>
+                                    </form>
+                        </div><!--/.nav-collapse -->
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <h3>Planck Constant</h3>
+                <iframe width="400" height="150" src="json/planck_constant.json"></iframe>
+                <div class="row">
+                    <div class="span8">
+                        <h3>How To Use</h3>
+                        Reference the url "http://www.constants.datanab.net/physics/planck_constant_json" in order to extract the JSON data. For example, if you wanted to get the variable in a Python script you would do:
+                        <div class="row">
+                            <div class="well well-small span8">
+                                import JSON<br>
+                                import urllib<br>
+                                aquire = urllib.urlopen("http://www.constants.datanab.net/physics/planck_constant_json")
+                                unpacked = aquire.read()<br>
+                                data = json.loads(unpacked)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span9">
+                        Now, you are free to reference data['value'] to use the number.
+                    </div>
+                </div>
+            </div>
             <hr>
             <script>
                 $.getJSON("json/planck_constant.json", data, function (result) {
@@ -15,7 +93,11 @@
                           });
 
             </script>
-
+            <footer> <!-- site wide footer -->
+                <nav>
+                    Copyright &copy; Josh Fernandes 2012
+                </nav>
+            </footer>
             <script src="http://conversions.herokuapp.com/static/js/timestamp.js"></script>
         </body>
 </html>
