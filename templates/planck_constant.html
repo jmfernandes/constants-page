@@ -9,6 +9,14 @@
             <p>display json here. Refer to http://constants.herokuapp.com/physics/planck_constant_json to get the json data</p>
             <a href="http://constants.herokuapp.com/physics/planck_constant_json">Json Data</a>
             <hr>
+            
+            <script>
+                $.getJSON("json/planck_constant_json", data, function (result) {
+                          alert(result);
+                          });
+
+            </script>
+
             <script src="http://conversions.herokuapp.com/static/js/timestamp.js"></script>
         </body>
 </html>
