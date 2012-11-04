@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Bootstrap Dropdown Example</title>
+    <!-- Le styles -->
+    <link href="http://www.conversions.datanab.net/static/bootstrap.css" rel="stylesheet">
+    <link href="css/dropdownExample.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="navbar-example" class="navbar navbar-static span8" style="margin-top: 20px;">
+    <!-- navigation -->
+    <div class="navbar-inner">
+        <div class="container" style="width: auto;">
+            <a class="brand" href="#">Animal Types</a>
+            <ul class="nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mammals <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="return false" id="chimpanzee">Chimpanzee</a></li>
+                        <li><a href="#" onclick="return false" id="lemur">Lemur</a></li>
+                        <li><a href="#" onclick="return false" id="jaguar">Jaguar</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reptiles <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="return false" id="cobra">Cobra</a></li>
+                        <li><a href="#" onclick="return false" id="eidechse">Eidechse</a></li>
+                        <li><a href="#" onclick="return false" id="iguana">Iguana</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav">
+                <li id="fat-menu" class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Rodents <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#" onclick="return false" id="chipmunk">Chipmunk</a></li>
+                        <li><a href="#" onclick="return false" id="beaver">Beaver</a></li>
+                        <li><a href="#" onclick="return false" id="hamster">Hamster</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- content pages -->
+    <div class="row show page" id="chimpanzeePage">
+        <div class="span3">
+            <img src="img/chimpanzee.jpg" alt="Chimpanzee">
+        </div>
+        <div class="span5 textfield">
+            <h2>Chimpanzee</h2>
+            <h4>Chimpanzees are members of the Hominidae family, along with gorillas, humans, and orangutans. Chimpanzees split from the human branch of the family about 4 to 6 million years ago. The two chimpanzee species are the closest living relatives to humans, all being members of the Hominini tribe (along with extinct species of Hominina subtribe). Chimpanzees are the only known members of the Panina subtribe. The two Pan species split only about one million years ago.</h4>
+        </div>
+    </div>
+    <div class="row hide page" id="lemurPage">
+        <div class="span2">
+            <img src="img/lemur.jpg" alt="Lemur">
+        </div>
+        <div class="span6  textfield">
+            <h2>Lemur</h2>
+            <h4>Lemurs are a clade of strepsirrhine primates endemic to the island of Madagascar. They are named after the lemures (ghosts or spirits) of Roman mythology due to the ghostly vocalizations, reflective eyes, and the nocturnal habits of some species. Although lemurs often are confused with ancestral primates, the anthropoid primates (monkeys, apes, and humans) did not evolve from them; instead, lemurs merely share morphological and behavioral traits with basal primates. Lemurs arrived in Madagascar around 62 to 65 mya by rafting on mats of vegetation at a time when ocean currents favored oceanic dispersal to the island. </h4>
+        </div>
+    </div>
+    <div class="row hide page" id="jaguarPage">
+        <div class="span4">
+            <img src="img/jaguar.jpg" alt="Jaguar">
+        </div>
+        <div class="span4  textfield">
+            <h2>Jaguar</h2>
+            <h4>The jaguar is a big cat, a feline in the Panthera genus, and is the only Panthera species found in the Americas. The jaguar is the third-largest feline after the tiger and the lion, and the largest in the Western Hemisphere. The jaguar's present range extends from Southern United States and Mexico across much of Central America and south to Paraguay and northern Argentina. Apart from a known and possibly breeding population in Arizona (southeast of Tucson), the cat has largely been extirpated from the United States since the early 20th century.</h4>
+        </div>
+    </div>
+    <div class="row hide page" id="cobraPage">
+        <div class="span3">
+            <img src="img/cobra.jpg" alt="Cobra">
+        </div>
+        <div class="span5 textfield">
+            <h2>Cobra</h2>
+            <h4>Cobra is any of various species of venomous snakes usually belonging to the family Elapidae, most of which can expand their neck ribs to form a widened hood. Not all snakes commonly referred to as cobras are of the same genus, or even of the same family. The name is short for cobra capo or capa Snake, which is Portuguese for "snake with hood", or "hood-snake". When disturbed, most of these snakes can rear up and spread their necks (or hoods) in a characteristic threat display. A favorite of snake charmers, cobras are found from southern Africa, through southern Asia, to some of the islands of Southeast Asia.</h4>
+        </div>
+    </div>
+    <div class="row hide page" id="eidechsePage">
+        <div class="span5">
+            <img src="img/eidechse.jpg" alt="Eidechse">
+        </div>
+        <div class="span3 textfield">
+            <h2>Eidechse</h2>
+            <h4>The Real lizards (Lacertidae) are a family within the Squamata reptiles (Squamata). In German, is often synonymous simply used the word "lizard". Their representatives occur in Europe, Africa and Asia as well as on offshore islands and prefer sun warm, mainly dry habitats. They feed generally on small invertebrates, and sometimes seeds and fruits.</h4>
+        </div>
+    </div>
+    <div class="row hide page" id="iguanaPage">
+        <div class="span4">
+            <img src="img/iguana.jpg" alt="Iguana">
+        </div>
+        <div class="span4 textfield">
+            <h2>Iguana</h2>
+            <h4>Iguana is a herbivorous genus of lizard native to tropical areas of Mexico, Central America and the Caribbean. The genus was first described in 1768 by Austrian naturalist Josephus Nicolaus Laurenti in his book Specimen Medicum, Exhibens Synopsin Reptilium Emendatam cum Experimentis circa Venena. Two species are included in the genus Iguana: the Green Iguana, which is widespread throughout its range and a popular pet, and the Lesser Antillean Iguana, which is endemic to the Lesser Antilles and endangered due to habitat destruction.</h4>
+        </div>
+    </div>
+    <div class="row hide page" id="beaverPage">
+        <div class="span4">
+            <img src="img/beaver.jpg" alt="Beaver">
+        </div>
+        <div class="span4 textfield">
+            <h2>Beaver</h2>
+            <h4>The beaver (genus Castor) is a primarily nocturnal, large, semi-aquatic rodent. Castor includes two extant species, North American Beaver (Castor canadensis) (native to North America) and Eurasian Beaver (Castor fiber) (Eurasia). Beavers are known for building dams, canals, and lodges (homes). They are the second-largest rodent in the world (after the capybara). Their colonies create one or more dams to provide still, deep water to protect against predators, and to float food and building material. The North American beaver population was once more than 60 million, but as of 1988 was 6-12 million. This population decline is due to extensive hunting for fur, for glands used as medicine and perfume, and because their harvesting of trees and flooding of waterways may interfere with other land uses.</h4>
+        </div>
+    </div>
+    <div class="row hide page" id="chipmunkPage">
+        <div class="span3">
+            <img src="img/chipmunk.jpg" alt="Chipmunk">
+        </div>
+        <div class="span5 textfield">
+            <h2>Chipmunk</h2>
+            <h4>Chipmunks may be classified either as a single genus, Tamias, or as three genera: Tamias, which includes the eastern chipmunk; Eutamias, which includes the Siberian chipmunk; and Neotamias, which includes the 23 remaining, mostly western, species. These classifications are arbitrary, and most taxonomies over the twentieth century have placed the chipmunks in a single genus. However, studies of mitochondrial DNA show that the divergence between each of the three chipmunk groups is comparable to the genetic dissimilarity between Marmota and Spermophilus.</h4>
+        </div>
+    </div>
+    <div class="row hide page" id="hamsterPage">
+        <div class="span3">
+            <img src="img/hamster.jpg" alt="Hamster">
+        </div>
+        <div class="span5 textfield">
+            <h2>Hamster</h2>
+            <h4>Hamsters are crepuscular animals which burrow underground in the daylight to avoid being caught by predators. Their diet includes a variety of foods, including dried food, berries, nuts, fresh fruits and vegetables. In the wild they feed primarily on seeds, fruits and greens, and will occasionally eat burrowing insects. They have an elongated pouch on each side of their heads that extend to their shoulders, which they stuff full of food to be stored, brought back to the colony or to be eaten later.</h4>
+        </div>
+    </div>
+
+</div> <!-- /navbar-example -->
+
+
+
+
+
+
+
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="http://www.conversions.datanab.net/static/js/jquery.js"></script>
+<script src="http://www.conversions.datanab.net/static/js/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="js/bootstrapDropdownExample.js"></script>
+
+
+</body>
+</html>
+
