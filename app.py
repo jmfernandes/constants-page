@@ -20,31 +20,31 @@ def index():
 
 @app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
 def index():
-    return render_template('json/characteristic_impedance_of_vacuum.html')
+    return render_template('characteristic_impedance_of_vacuum.html')
 
 @app.route('/physics/vacuum_permittivity', endpoint='vacuum_permittivity')
 def index():
-    return render_template('json/vacuum_permittivity.html')
+    return render_template('vacuum_permittivity.html')
 
 @app.route('/physics/standard_gravity', endpoint='standard_gravity')
 def index():
-    return render_template('json/standard_gravity.html')
+    return render_template('standard_gravity.html')
 
 @app.route('/physics/electron_mass', endpoint='electron_mass')
 def index():
-    return render_template('json/electron_mass.html')
+    return render_template('electron_mass.html')
 
 @app.route('/physics/proton_mass', endpoint='proton_mass')
 def index():
-    return render_template('json/proton_mass.html')
+    return render_template('proton_mass.html')
 
 @app.route('/physics/neutron_mass', endpoint='neutron_mass')
 def index():
-    return render_template('json/neutron_mass.html')
+    return render_template('neutron_mass.html')
 
 @app.route('/physics/elementary_charge', endpoint='elementary_charge')
 def index():
-    return render_template('json/elementary_charge.html')
+    return render_template('elementary_charge.html')
 
 @app.route('/physics/planck_constant_json', endpoint='planck_constant_json')
 def index():
