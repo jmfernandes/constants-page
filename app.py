@@ -52,7 +52,7 @@ def index():
 
 @app.route('/physics/characteristic_impedance_of_vacuum_json', endpoint='characteristic_impedance_of_vacuum_json')
 def index():
-    return render_template('json/characteristic_impedance_of_vacuum.json')
+    return render_template('json/characteristic_impedance_of_a_vacuum.json')
 
 @app.route('/physics/vacuum_permittivity_json', endpoint='vacuum_permittivity_json')
 def index():
