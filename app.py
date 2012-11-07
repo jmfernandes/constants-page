@@ -18,51 +18,65 @@ def index():
     data = 5
     return  render_template('planck_constant.html',data=data)
 
+@app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
+def index():
+    return render_template('json/characteristic_impedance_of_vacuum.html')
+
+@app.route('/physics/vacuum_permittivity', endpoint='vacuum_permittivity')
+def index():
+    return render_template('json/vacuum_permittivity.html')
+
+@app.route('/physics/standard_gravity', endpoint='standard_gravity')
+def index():
+    return render_template('json/standard_gravity.html')
+
+@app.route('/physics/electron_mass', endpoint='electron_mass')
+def index():
+    return render_template('json/electron_mass.html')
+
+@app.route('/physics/proton_mass', endpoint='proton_mass')
+def index():
+    return render_template('json/proton_mass.html')
+
+@app.route('/physics/neutron_mass', endpoint='neutron_mass')
+def index():
+    return render_template('json/neutron_mass.html')
+
+@app.route('/physics/elementary_charge', endpoint='elementary_charge')
+def index():
+    return render_template('json/elementary_charge.html')
+
 @app.route('/physics/planck_constant_json', endpoint='planck_constant_json')
 def index():
     return render_template('json/planck_constant.json')
 
-@app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
+@app.route('/physics/characteristic_impedance_of_vacuum_json', endpoint='characteristic_impedance_of_vacuum_json')
 def index():
-    dict = {'value': 376.730313461, 'units': 'ohms', 'citation': 'http://physics.nist.gov/cgi-bin/cuu/Value?z0|search_for=universal_in!','name': 'Characteristic impedance of a vacuum'};
-    data = json.dumps(dict)
-    return data
+    return render_template('json/characteristic_impedance_of_vacuum.json')
 
-@app.route('/physics/vacuum_permittivity', endpoint='vacuum_permittivity')
+@app.route('/physics/vacuum_permittivity_json', endpoint='vacuum_permittivity_json')
 def index():
-    dict = {'value': 8.854187817E-12, 'units': 'farad/meters', 'citation': 'http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!','name': 'vacuum permittivity'};
-    data = json.dumps(dict)
-    return data
+    return render_template('json/vacuum_permittivity.json')
 
-@app.route('/physics/standard_gravity', endpoint='standard_gravity')
+@app.route('/physics/standard_gravity_json', endpoint='standard_gravity_json')
 def index():
-    dict = {'value': 9.80665, 'units': 'meters/(seconds^2)', 'citation': 'http://en.wikipedia.org/wiki/Standard_gravity','name': 'standard gravity'};
-    data = json.dumps(dict)
-    return data
+    return render_template('json/standard_gravity.json')
 
-@app.route('/physics/electron_mass', endpoint='electron_mass')
+@app.route('/physics/electron_mass_json', endpoint='electron_mass_json')
 def index():
-    dict = {'value': .510998910, 'units': 'mega electron*volts/c^2', 'citation': 'http://en.wikipedia.org/wiki/Electron_rest_mass','name': 'Electron rest mass'};
-    data = json.dumps(dict)
-    return data
+    return render_template('json/electron_mass.json')
 
-@app.route('/physics/proton_mass', endpoint='proton_mass')
+@app.route('/physics/proton_mass_json', endpoint='proton_mass_json')
 def index():
-    dict = {'value': 938.272046, 'units': 'mega electron*volts/c^2', 'citation': 'http://en.wikipedia.org/wiki/Proton','name': 'Proton rest mass'};
-    data = json.dumps(dict)
-    return data
+    return render_template('json/proton_mass.json')
 
-@app.route('/physics/neutron_mass', endpoint='neutron_mass')
+@app.route('/physics/neutron_mass_json', endpoint='neutron_mass_json')
 def index():
-    dict = {'value': 939.565378, 'units': 'mega electron*volts/c^2', 'citation': 'http://en.wikipedia.org/wiki/Neutron','name': 'Neutron rest mass'};
-    data = json.dumps(dict)
-    return data
+    return render_template('json/neutron_mass.json')
 
-@app.route('/physics/elementary_charge', endpoint='elementary_charge')
+@app.route('/physics/elementary_charge_json', endpoint='elementary_charge_json')
 def index():
-    dict = {'value': 1.602176565E-19, 'units': 'Coulomb', 'citation': 'http://en.wikipedia.org/wiki/Elementary_charge','name': 'Elementary charge'};
-    data = json.dumps(dict)
-    return data
+    return render_template('json/elementary_charge.json')
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
