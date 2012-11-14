@@ -21,11 +21,17 @@ def index():
 
 @app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
 def index():
-    return render_template('characteristic_impedance_of_vacuum.html')
+    json_file = open('templates/json/characteristic_impedance_of_vacuum.json')
+    data = json.load(json_file)
+    json_file.close()
+    return render_template('characteristic_impedance_of_vacuum.html',data=data)
 
 @app.route('/physics/vacuum_permittivity', endpoint='vacuum_permittivity')
 def index():
-    return render_template('vacuum_permittivity.html')
+    json_file = open('templates/json/vacuum_permittivity.json')
+    data = json.load(json_file)
+    json_file.close()
+    return render_template('vacuum_permittivity.html',data=data)
 
 @app.route('/physics/standard_gravity', endpoint='standard_gravity')
 def index():
@@ -36,19 +42,31 @@ def index():
 
 @app.route('/physics/electron_mass', endpoint='electron_mass')
 def index():
-    return render_template('electron_mass.html')
+    json_file = open('templates/json/electron_mass.json')
+    data = json.load(json_file)
+    json_file.close()
+    return render_template('electron_mass.html',data=data)
 
 @app.route('/physics/proton_mass', endpoint='proton_mass')
 def index():
-    return render_template('proton_mass.html')
+    json_file = open('templates/json/proton_mass.json')
+    data = json.load(json_file)
+    json_file.close()
+    return render_template('proton_mass.html',data=data)
 
 @app.route('/physics/neutron_mass', endpoint='neutron_mass')
 def index():
-    return render_template('neutron_mass.html')
+    json_file = open('templates/json/neutron_mass.json')
+    data = json.load(json_file)
+    json_file.close()
+    return render_template('neutron_mass.html',data=data)
 
 @app.route('/physics/elementary_charge', endpoint='elementary_charge')
 def index():
-    return render_template('elementary_charge.html')
+    json_file = open('templates/json/elementary_charge.json')
+    data = json.load(json_file)
+    json_file.close()
+    return render_template('elementary_charge.html',data=data)
 
 @app.route('/physics/planck_constant_json', endpoint='planck_constant_json')
 def index():

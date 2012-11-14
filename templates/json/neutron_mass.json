@@ -1,6 +1,7 @@
 {
-'value': 939.565378, 
-'units': 'mega electron*volts/c^2',
-'name': 'Neutron rest mass', 
-'citation': 'http://en.wikipedia.org/wiki/Neutron'
+"value": 939.565378, 
+"units": "mega electron*volts/c^2",
+"name": "Neutron Rest Mass", 
+"citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",
+"url":"http://www.constants.datanab.net/physics/neutron_mass_json"
 }

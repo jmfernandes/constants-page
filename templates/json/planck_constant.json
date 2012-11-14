@@ -1,7 +1,7 @@
 {
 "value": 6.62606957e-34,
 "units": "joule*seconds",
-"name": "planck constant",
-"citation": "http://en.wikipedia.org/wiki/Planck_constant",
+"name": "Planck Constant",
+"citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",
 "url":"http://www.constants.datanab.net/physics/planck_constant_json"
 }
