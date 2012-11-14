@@ -1,7 +1,6 @@
 import os
-import json
-from flask import Flask
-from flask import render_template
+from flask import Flask, render_template, json
+
 
 app = Flask(__name__)
 
@@ -15,7 +14,10 @@ def index():
 
 @app.route('/physics/planck_constant', endpoint='planck_constant')
 def index():
-    return  render_template('planck_constant.html')
+    json_file = open('templates/json/planck_constant.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('planck_constant.html',data=data)
 
 @app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
 def index():
