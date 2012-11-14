@@ -21,7 +21,7 @@ def index():
 
 @app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
 def index():
-    json_file = open('templates/json/characteristic_impedance_of_vacuum.json')
+    json_file = open('templates/json/characteristic_impedance_of_a_vacuum.json')
     data = json.load(json_file)
     json_file.close()
     return render_template('characteristic_impedance_of_vacuum.html',data=data)

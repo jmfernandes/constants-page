@@ -3,5 +3,5 @@
 "units": "ohms",
 "name": "Characteristic Impedance of a Vacuum", 
 "citation": "http://physics.nist.gov/cgi-bin/cuu/Value?z0|search_for=universal_in!",
-"url":"http://www.constants.datanab.net/physics/characteristic_impedance_of_a_vacuum_json"
+"url":"http://www.constants.datanab.net/physics/characteristic_impedance_of_vacuum_json"
 }
