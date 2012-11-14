@@ -29,7 +29,10 @@ def index():
 
 @app.route('/physics/standard_gravity', endpoint='standard_gravity')
 def index():
-    return render_template('standard_gravity.html')
+    json_file = open('templates/json/standard_gravity.json')
+    data = json.load(json_file)
+    json_file.close()
+    return render_template('standard_gravity.html',data=data)
 
 @app.route('/physics/electron_mass', endpoint='electron_mass')
 def index():

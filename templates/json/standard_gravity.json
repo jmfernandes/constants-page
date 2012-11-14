@@ -1,6 +1,7 @@
 {
-'value': 9.80665,
-'units': 'meters/(seconds^2)',
-'name': 'standard gravity',
-'citation': 'http://en.wikipedia.org/wiki/Standard_gravity'
+"value": 9.80665,
+"units": "meters/(seconds^2)",
+"name": "standard gravity",
+"citation": "http://en.wikipedia.org/wiki/Standard_gravity",
+"url" : "http://www.constants.datanab.net/physics/standard_gravity_json"
 }
