@@ -68,6 +68,13 @@ def index():
     json_file.close()
     return render_template('elementary_charge.html',data=data)
 
+@app.route('/physics/speed_of_light', endpoint='speed_of_light')
+def index():
+    json_file = open('templates/json/speed_of_light.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('speed_of_light.html',data=data)
+
 @app.route('/physics/planck_constant_json', endpoint='planck_constant_json')
 def index():
     return render_template('json/planck_constant.json')
@@ -99,6 +106,10 @@ def index():
 @app.route('/physics/elementary_charge_json', endpoint='elementary_charge_json')
 def index():
     return render_template('json/elementary_charge.json')
+
+@app.route('/physics/speed_of_light_json', endpoint='elementary_charge_json')
+def index():
+    return render_template('json/speed_of_light.json')
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
