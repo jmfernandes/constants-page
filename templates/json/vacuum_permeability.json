@@ -1,6 +1,7 @@
 {
 "value": 8.854187817E-12,
-"symbol": "µ<sub>0</sub>", 
+"symbol": "µ",
+"subscript": "0", 
 "units": "Newton/Ampere^2", 
 "name": "Vacuum Permeability",
 "citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",
