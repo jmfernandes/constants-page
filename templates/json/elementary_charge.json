@@ -1,5 +1,7 @@
 {
-"value": 1.602176565E-19, 
+"value": 1.602176565E-19,
+"symbol": "q",
+"subscript": "",
 "units": "Coulomb",
 "name": "Elementary Charge", 
 "citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",

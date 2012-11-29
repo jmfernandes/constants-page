@@ -1,5 +1,7 @@
 {
-"value": 939.565378, 
+"value": 939.565378,
+"symbol": "m",
+"subscript": "n",
 "units": "mega electron*volts/c^2",
 "name": "Neutron Rest Mass", 
 "citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",

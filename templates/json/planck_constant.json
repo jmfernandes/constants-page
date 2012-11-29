@@ -1,5 +1,7 @@
 {
 "value": 6.62606957e-34,
+"symbol": "h",
+"subscript": "",
 "units": "joule*seconds",
 "name": "Planck Constant",
 "citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",

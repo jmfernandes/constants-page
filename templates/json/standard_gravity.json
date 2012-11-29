@@ -1,5 +1,7 @@
 {
 "value": 9.80665,
+"symbol": "g",
+"subscript": "",
 "units": "meters/(seconds^2)",
 "name": "Standard Gravity",
 "citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",

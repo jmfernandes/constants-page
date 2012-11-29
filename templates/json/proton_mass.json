@@ -1,5 +1,7 @@
 {
-"value": 938.272046, 
+"value": 938.272046,
+"symbol": "m",
+"subscript": "p",
 "units": "mega electron*volts/c^2",
 "name": "Proton Rest Mass", 
 "citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",
