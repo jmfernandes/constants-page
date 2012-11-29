@@ -1,7 +1,8 @@
 {
-"value": 8.854187817E-12, 
-"units": "farad/meters", 
-"name": "Vacuum Permittivity",
+"value": 8.854187817E-12,
+"symbol": "µ<sub>0</sub>" 
+"units": "Newton/Ampere^2", 
+"name": "Vacuum Permeability",
 "citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",
-"url":"http://www.constants.datanab.net/physics/vacuum_permittivity_json"
+"url":"http://www.constants.datanab.net/physics/vacuum_permeability_json"
 }
