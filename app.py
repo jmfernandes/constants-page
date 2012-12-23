@@ -24,84 +24,84 @@ def index():
     json_file = open('templates/json/physics/characteristic_impedance_of_a_vacuum.json')
     data = json.load(json_file)
     json_file.close()
-    return render_template('physics/characteristic_impedance_of_vacuum.html',data=data)
+    return render_template('webpage.html',data=data)
 
 @app.route('/physics/vacuum_permittivity', endpoint='vacuum_permittivity')
 def index():
     json_file = open('templates/json/physics/vacuum_permittivity.json')
     data = json.load(json_file)
     json_file.close()
-    return render_template('physics/vacuum_permittivity.html',data=data)
+    return render_template('webpage.html',data=data)
 
 @app.route('/physics/standard_gravity', endpoint='standard_gravity')
 def index():
     json_file = open('templates/json/physics/standard_gravity.json')
     data = json.load(json_file)
     json_file.close()
-    return render_template('physics/standard_gravity.html',data=data)
+    return render_template('webpage.html',data=data)
 
 @app.route('/physics/electron_mass', endpoint='electron_mass')
 def index():
     json_file = open('templates/json/physics/electron_mass.json')
     data = json.load(json_file)
     json_file.close()
-    return render_template('physics/electron_mass.html',data=data)
+    return render_template('webpage.html',data=data)
 
 @app.route('/physics/proton_mass', endpoint='proton_mass')
 def index():
     json_file = open('templates/json/physics/proton_mass.json')
     data = json.load(json_file)
     json_file.close()
-    return render_template('physics/proton_mass.html',data=data)
+    return render_template('webpage.html',data=data)
 
 @app.route('/physics/neutron_mass', endpoint='neutron_mass')
 def index():
     json_file = open('templates/json/physics/neutron_mass.json')
     data = json.load(json_file)
     json_file.close()
-    return render_template('physics/neutron_mass.html',data=data)
+    return render_template('webpage.html',data=data)
 
 @app.route('/physics/elementary_charge', endpoint='elementary_charge')
 def index():
     json_file = open('templates/json/physics/elementary_charge.json')
     data = json.load(json_file)
     json_file.close()
-    return render_template('physics/elementary_charge.html',data=data)
+    return render_template('webpage.html',data=data)
 
 @app.route('/physics/speed_of_light', endpoint='speed_of_light')
 def index():
     json_file = open('templates/json/physics/speed_of_light.json')
     data = json.load(json_file)
     json_file.close()
-    return  render_template('physics/speed_of_light.html',data=data)
+    return  render_template('webpage.html',data=data)
 
 @app.route('/physics/vacuum_permeability', endpoint='vacuum_permeability')
 def index():
     json_file = open('templates/json/physics/vacuum_permeability.json')
     data = json.load(json_file)
     json_file.close()
-    return  render_template('physics/vacuum_permeability.html',data=data)
+    return  render_template('webpage.html',data=data)
 
 @app.route('/chemistry/atomic_mass_unit', endpoint='atomic_mass_unit')
 def index():
     json_file = open('templates/json/chemistry/atomic_mass_unit.json')
     data = json.load(json_file)
     json_file.close()
-    return  render_template('chemistry/atomic_mass_unit.html',data=data)
+    return  render_template('webpage.html',data=data)
 
 @app.route('/biology/blood_volume_of_human', endpoint='blood_volume_of_human')
 def index():
     json_file = open('templates/json/biology/blood_volume_of_human.json')
     data = json.load(json_file)
     json_file.close()
-    return  render_template('biology/blood_volume_of_human.html',data=data)
+    return  render_template('webpage.html',data=data)
 
 @app.route('/natural/equatorial_radius_of_earth', endpoint='equatorial_radius_of_earth')
 def index():
     json_file = open('templates/json/natural/equatorial_radius_of_earth.json')
     data = json.load(json_file)
     json_file.close()
-    return  render_template('natural/equatorial_radius_of_earth.html',data=data)
+    return  render_template('webpage.html',data=data)
 
 @app.route('/physics/planck_constant_json', endpoint='planck_constant_json')
 def index():
