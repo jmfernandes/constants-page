@@ -1,0 +1,9 @@
+{
+"value": 1.602176565E-19,
+"symbol": "q",
+"subscript": "",
+"units": "Coulomb",
+"name": "Elementary Charge", 
+"citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",
+"url":"http://www.constants.datanab.net/physics/elementary_charge_json"
+}

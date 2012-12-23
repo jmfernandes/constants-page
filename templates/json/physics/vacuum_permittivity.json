@@ -1,0 +1,9 @@
+{
+"value": 8.854187817E-12,
+"symbol": "ε",
+"subscript": "0",
+"units": "farad/meters", 
+"name": "Vacuum Permittivity",
+"citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",
+"url":"http://www.constants.datanab.net/physics/vacuum_permittivity_json"
+}
