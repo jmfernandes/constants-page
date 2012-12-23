@@ -17,7 +17,7 @@ def index():
     json_file = open('templates/json/physics/planck_constant.json')
     data = json.load(json_file)
     json_file.close()
-    return  render_template('physics/planck_constant.html',data=data)
+    return  render_template('webpage.html',data=data)
 
 @app.route('/physics/characteristic_impedance_of_vacuum', endpoint='characteristic_impedance_of_vacuum')
 def index():
