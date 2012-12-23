@@ -1,0 +1,9 @@
+{
+"value": 5,
+"symbol": "V",
+"subscript": "",
+"units": "liters",
+"name": "Average Volume of Blood in 70kg Human", 
+"citation": "http://hypertextbook.com/facts/1998/LanNaLee.shtml",
+"url":"http://www.constants.datanab.net/biology/blood_volume_of_human_json"
+}

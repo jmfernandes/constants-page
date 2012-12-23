@@ -89,6 +89,13 @@ def index():
     json_file.close()
     return  render_template('chemistry/atomic_mass_unit.html',data=data)
 
+@app.route('/biology/blood_volume_of_human', endpoint='blood_volume_of_human')
+def index():
+    json_file = open('templates/json/biology/blood_volume_of_human.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('biology/blood_volume_of_human.html',data=data)
+
 @app.route('/natural/equatorial_radius_of_earth', endpoint='equatorial_radius_of_earth')
 def index():
     json_file = open('templates/json/natural/equatorial_radius_of_earth.json')
@@ -139,6 +146,10 @@ def index():
 @app.route('/chemistry/atomic_mass_unit_json', endpoint='/chemistry/atomic_mass_unit_json')
 def index():
     return render_template('json/chemistry/atomic_mass_unit.json')
+
+@app.route('/biology/blood_volume_of_human_json', endpoint='/biology/blood_volume_of_human_json')
+def index():
+    return render_template('json/biology/blood_volume_of_human.json')
 
 @app.route('/natural/equatorial_radius_of_earth_json', endpoint='/natural/equatorial_radius_of_earth_json')
 def index():
