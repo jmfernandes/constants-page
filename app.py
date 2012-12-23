@@ -82,6 +82,13 @@ def index():
     json_file.close()
     return  render_template('physics/vacuum_permeability.html',data=data)
 
+@app.route('/chemistry/atomic_mass_unit', endpoint='atomic_mass_unit')
+def index():
+    json_file = open('templates/json/chemistry/atomic_mass_unit.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('chemistry/atomic_mass_unit.html',data=data)
+
 @app.route('/physics/planck_constant_json', endpoint='planck_constant_json')
 def index():
     return render_template('json/physics/planck_constant.json')
@@ -121,6 +128,10 @@ def index():
 @app.route('/physics/vacuum_permeability_json', endpoint='vacuum_permeability_json')
 def index():
     return render_template('json/physics/vacuum_permeability.json')
+
+@app.route('/chemistry/atomic_mass_unit_json', endpoint='/chemistry/atomic_mass_unit_json')
+def index():
+    return render_template('json/chemistry/atomic_mass_unit.json')
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
