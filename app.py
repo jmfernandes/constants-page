@@ -89,6 +89,13 @@ def index():
     json_file.close()
     return  render_template('chemistry/atomic_mass_unit.html',data=data)
 
+@app.route('/natural/equatorial_radius_of_earth', endpoint='equatorial_radius_of_earth')
+def index():
+    json_file = open('templates/json/natural/equatorial_radius_of_earth.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('natural/equatorial_radius_of_earth.html',data=data)
+
 @app.route('/physics/planck_constant_json', endpoint='planck_constant_json')
 def index():
     return render_template('json/physics/planck_constant.json')
@@ -132,6 +139,10 @@ def index():
 @app.route('/chemistry/atomic_mass_unit_json', endpoint='/chemistry/atomic_mass_unit_json')
 def index():
     return render_template('json/chemistry/atomic_mass_unit.json')
+
+@app.route('/natural/equatorial_radius_of_earth_json', endpoint='/natural/equatorial_radius_of_earth_json')
+def index():
+    return render_template('json/natural/equatorial_radius_of_earth.json')
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
