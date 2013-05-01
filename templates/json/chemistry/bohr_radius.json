@@ -1,0 +1,9 @@
+{
+"value": 0.529E-10,
+"symbol": "a",
+"subscript": "0",
+"units": "meters",
+"name": "Bohr Radius", 
+"citation": "http://physics.nist.gov/cuu/Constants/Table/allascii.txt",
+"url":"http://www.constants.datanab.net/chemistry/bohr_radius_json"
+}

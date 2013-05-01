@@ -98,6 +98,13 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
+@app.route('/chemistry/bohr_radius', endpoint='bohr_radius')
+def index():
+    json_file = open('templates/json/chemistry/bohr_radius.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
 """Biology Web Pages"""
 
 @app.route('/biology/blood_volume_of_human', endpoint='blood_volume_of_human')
@@ -168,6 +175,10 @@ def index():
 @app.route('/chemistry/avogadros_number_json', endpoint='/chemistry/avogadros_number_json')
 def index():
     return render_template('json/chemistry/avogadros_number.json')
+
+@app.route('/chemistry/bohr_radius_json', endpoint='/chemistry/bohr_radius_json')
+def index():
+    return render_template('json/chemistry/bohr_radius.json')
 
 """Biology Constants"""
 
