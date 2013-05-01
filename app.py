@@ -128,6 +128,8 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
+"""human LD50"""
+
 @app.route('/biology/human_ld50_vitamin_a', endpoint='human_ld50_vitamin_a')
 def index():
     json_file = open('templates/json/biology/human_ld50_vitamin_a.json')
@@ -204,6 +206,34 @@ def index():
     data = json.load(json_file)
     json_file.close()
     return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_theobromine', endpoint='human_ld50_theobromine')
+def index():
+    json_file = open('templates/json/biology/human_ld50_theobromine.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+"""Dog LD50"""
+
+@app.route('/biology/dog_ld50_theobromine', endpoint='dog_ld50_theobromine')
+def index():
+    json_file = open('templates/json/biology/dog_ld50_theobromine.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+
+"""Cat LD50"""
+
+@app.route('/biology/cat_ld50_theobromine', endpoint='cat_ld50_theobromine')
+def index():
+    json_file = open('templates/json/biology/cat_ld50_theobromine.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+
 
 """Natural Web Pages"""
 
@@ -328,6 +358,23 @@ def index():
 @app.route('/biology/human_ld50_acetaminophen_json', endpoint='/biology/human_ld50_acetaminophen_json')
 def index():
     return render_template('json/biology/human_ld50_acetaminophen.json')
+
+@app.route('/biology/human_ld50_theobromine_json', endpoint='/biology/human_ld50_theobromine_json')
+def index():
+    return render_template('json/biology/human_ld50_theobromine.json')
+
+"""dog LD50"""
+
+@app.route('/biology/dog_ld50_theobromine_json', endpoint='/biology/dog_ld50_theobromine_json')
+def index():
+    return render_template('json/biology/dog_ld50_theobromine.json')
+
+
+"""cat LD50"""
+
+@app.route('/biology/cat_ld50_theobromine_json', endpoint='/biology/cat_ld50_theobromine_json')
+def index():
+    return render_template('json/biology/cat_ld50_theobromine.json')
 
 
 """Natural Constants"""
