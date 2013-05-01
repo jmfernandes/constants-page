@@ -82,12 +82,23 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
+"""Chemistry Web Pages"""
+
 @app.route('/chemistry/atomic_mass_unit', endpoint='atomic_mass_unit')
 def index():
     json_file = open('templates/json/chemistry/atomic_mass_unit.json')
     data = json.load(json_file)
     json_file.close()
     return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/avogadros_number', endpoint='avogadros_number')
+def index():
+    json_file = open('templates/json/chemistry/avogadros_number.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+"""Biology Web Pages"""
 
 @app.route('/biology/blood_volume_of_human', endpoint='blood_volume_of_human')
 def index():
@@ -96,12 +107,17 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
+"""Natural Web Pages"""
+
 @app.route('/natural/equatorial_radius_of_earth', endpoint='equatorial_radius_of_earth')
 def index():
     json_file = open('templates/json/natural/equatorial_radius_of_earth.json')
     data = json.load(json_file)
     json_file.close()
     return  render_template('webpage.html',data=data)
+
+
+"""JSON FILE PAGES"""
 
 @app.route('/physics/planck_constant_json', endpoint='planck_constant_json')
 def index():
@@ -143,13 +159,23 @@ def index():
 def index():
     return render_template('json/physics/vacuum_permeability.json')
 
+"""Chemistry Constants"""
+
 @app.route('/chemistry/atomic_mass_unit_json', endpoint='/chemistry/atomic_mass_unit_json')
 def index():
     return render_template('json/chemistry/atomic_mass_unit.json')
 
+@app.route('/chemistry/avogadros_number_json', endpoint='/chemistry/avogadros_number_json')
+def index():
+    return render_template('json/chemistry/avogadros_number.json')
+
+"""Biology Constants"""
+
 @app.route('/biology/blood_volume_of_human_json', endpoint='/biology/blood_volume_of_human_json')
 def index():
     return render_template('json/biology/blood_volume_of_human.json')
+
+"""Natural Constants"""
 
 @app.route('/natural/equatorial_radius_of_earth_json', endpoint='/natural/equatorial_radius_of_earth_json')
 def index():
