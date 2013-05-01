@@ -1,0 +1,9 @@
+{
+"value": 67.2,
+"symbol": "e",
+"subscript": "x",
+"units": "years",
+"name": "Human Life Expectancy", 
+"citation": "https://www.cia.gov/library/publications/the-world-factbook/rankorder/2102rank.html",
+"url":"http://www.constants.datanab.net/biology/life_expectancy_json"
+}

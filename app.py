@@ -121,6 +121,13 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
+@app.route('/biology/life_expectancy', endpoint='life_expectancy')
+def index():
+    json_file = open('templates/json/biology/life_expectancy.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
 """Natural Web Pages"""
 
 @app.route('/natural/equatorial_radius_of_earth', endpoint='equatorial_radius_of_earth')
@@ -196,6 +203,10 @@ def index():
 @app.route('/biology/blood_volume_of_human_json', endpoint='/biology/blood_volume_of_human_json')
 def index():
     return render_template('json/biology/blood_volume_of_human.json')
+
+@app.route('/biology/life_expectancy_json', endpoint='/biology/life_expectancy_json')
+def index():
+    return render_template('json/biology/life_expectancy.json')
 
 """Natural Constants"""
 
