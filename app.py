@@ -214,14 +214,14 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
-"""Dog LD50"""
+
 
 @app.route('/biology/dog_ld50_theobromine', endpoint='dog_ld50_theobromine')
 def index():
     json_file = open('templates/json/biology/dog_ld50_theobromine.json')
     data = json.load(json_file)
     json_file.close()
-    return  render_template('webpage.html',data=data)
+    return render_template('webpage.html',data=data)
 
 
 """Cat LD50"""
@@ -363,7 +363,6 @@ def index():
 def index():
     return render_template('json/biology/human_ld50_theobromine.json')
 
-"""dog LD50"""
 
 @app.route('/biology/dog_ld50_theobromine_json', endpoint='/biology/dog_ld50_theobromine_json')
 def index():
