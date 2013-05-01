@@ -105,6 +105,13 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
+@app.route('/chemistry/molar_gas_constant', endpoint='molar_gas_constant')
+def index():
+    json_file = open('templates/json/chemistry/molar_gas_constant.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
 """Biology Web Pages"""
 
 @app.route('/biology/blood_volume_of_human', endpoint='blood_volume_of_human')
@@ -179,6 +186,10 @@ def index():
 @app.route('/chemistry/bohr_radius_json', endpoint='/chemistry/bohr_radius_json')
 def index():
     return render_template('json/chemistry/bohr_radius.json')
+
+@app.route('/chemistry/molar_gas_constant_json', endpoint='/chemistry/molar_gas_constant_json')
+def index():
+    return render_template('json/chemistry/molar_gas_constant.json')
 
 """Biology Constants"""
 
