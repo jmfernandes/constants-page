@@ -1,0 +1,10 @@
+{
+    "value": 1100,
+    "symbol": "LD",
+    "subscript": "50",
+    "units": "mg/Kg",
+    "name": "LD50 of Aspirin for humans",
+    "condition": "taken orally by mice",
+    "citation": "http://www.lycaeum.org/mv/mu/LD50_list.html",
+    "url":"http://www.constants.datanab.net/biology/human_ld50_aspirin_json"
+}

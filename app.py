@@ -128,6 +128,83 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
+@app.route('/biology/human_ld50_vitamin_a', endpoint='human_ld50_vitamin_a')
+def index():
+    json_file = open('templates/json/biology/human_ld50_vitamin_a.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_thc', endpoint='human_ld50_thc')
+def index():
+    json_file = open('templates/json/biology/human_ld50_thc.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_thc_inhalation', endpoint='human_ld50_thc_inhalation')
+def index():
+    json_file = open('templates/json/biology/human_ld50_thc_inhalation.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_psilocypbin', endpoint='human_ld50_psilocypbin')
+def index():
+    json_file = open('templates/json/biology/human_ld50_psilocypbin.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_nicotine', endpoint='human_ld50_nicotine')
+def index():
+    json_file = open('templates/json/biology/human_ld50_nicotine.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_nicotine_iv', endpoint='human_ld50_nicotine_iv')
+def index():
+    json_file = open('templates/json/biology/human_ld50_nicotine_iv.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_nerve_gas', endpoint='human_ld50_nerve_gas')
+def index():
+    json_file = open('templates/json/biology/human_ld50_nerve_gas.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_lsd', endpoint='human_ld50_lsd')
+def index():
+    json_file = open('templates/json/biology/human_ld50_lsd.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_caffeine', endpoint='human_ld50_caffeine')
+def index():
+    json_file = open('templates/json/biology/human_ld50_caffeine.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_aspirin', endpoint='human_ld50_aspirin')
+def index():
+    json_file = open('templates/json/biology/human_ld50_aspirin.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/biology/human_ld50_acetaminophen', endpoint='human_ld50_acetaminophen')
+def index():
+    json_file = open('templates/json/biology/human_ld50_acetaminophen.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
 """Natural Web Pages"""
 
 @app.route('/natural/equatorial_radius_of_earth', endpoint='equatorial_radius_of_earth')
@@ -207,6 +284,51 @@ def index():
 @app.route('/biology/life_expectancy_json', endpoint='/biology/life_expectancy_json')
 def index():
     return render_template('json/biology/life_expectancy.json')
+
+@app.route('/biology/human_ld50_vitamin_a_json', endpoint='/biology/human_ld50_vitamin_a_json')
+def index():
+    return render_template('json/biology/human_ld50_vitamin_a.json')
+
+@app.route('/biology/human_ld50_thc_json', endpoint='/biology/human_ld50_thc_json')
+def index():
+    return render_template('json/biology/human_ld50_thc.json')
+
+@app.route('/biology/human_ld50_thc_inhalation_json', endpoint='/biology/human_ld50_thc_inhalation_json')
+def index():
+    return render_template('json/biology/human_ld50_thc_inhalation.json')
+
+@app.route('/biology/human_ld50_psilocypbin_json', endpoint='/biology/human_ld50_psilocypbin_json')
+def index():
+    return render_template('json/biology/human_ld50_psilocypbin.json')
+
+@app.route('/biology/human_ld50_nicotine_json', endpoint='/biology/human_ld50_nicotine_json')
+def index():
+    return render_template('json/biology/human_ld50_nicotine.json')
+
+@app.route('/biology/human_ld50_nicotine_iv_json', endpoint='/biology/human_ld50_nicotine_iv_json')
+def index():
+    return render_template('json/biology/human_ld50_nicotine_iv.json')
+
+@app.route('/biology/human_ld50_nerve_gas_json', endpoint='/biology/human_ld50_nerve_gas_json')
+def index():
+    return render_template('json/biology/human_ld50_nerve_gas.json')
+
+@app.route('/biology/human_ld50_lsd_json', endpoint='/biology/human_ld50_lsd_json')
+def index():
+    return render_template('json/biology/human_ld50_lsd.json')
+
+@app.route('/biology/human_ld50_caffeine_json', endpoint='/biology/human_ld50_caffeine_json')
+def index():
+    return render_template('json/biology/human_ld50_caffeine.json')
+
+@app.route('/biology/human_ld50_aspirin_json', endpoint='/biology/human_ld50_aspirin_json')
+def index():
+    return render_template('json/biology/human_ld50_aspirin.json')
+
+@app.route('/biology/human_ld50_acetaminophen_json', endpoint='/biology/human_ld50_acetaminophen_json')
+def index():
+    return render_template('json/biology/human_ld50_acetaminophen.json')
+
 
 """Natural Constants"""
 

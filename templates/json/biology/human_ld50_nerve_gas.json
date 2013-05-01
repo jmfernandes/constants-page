@@ -1,0 +1,10 @@
+{
+    "value": 0.0154,
+    "symbol": "LD",
+    "subscript": "50",
+    "units": "mg/Kg",
+    "name": "LD50 of nerve gas for humans",
+    "condition": "taken intravenously by rabbits",
+    "citation": "http://www.lycaeum.org/mv/mu/LD50_list.html",
+    "url":"http://www.constants.datanab.net/biology/human_ld50_nerve_gas_json"
+}

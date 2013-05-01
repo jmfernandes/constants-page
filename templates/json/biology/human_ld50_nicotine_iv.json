@@ -1,0 +1,10 @@
+{
+    "value": 0.3,
+    "symbol": "LD",
+    "subscript": "50",
+    "units": "mg/Kg",
+    "name": "LD50 of Nicotine for humans",
+    "condition": "taken intravenously by mice",
+    "citation": "http://www.lycaeum.org/mv/mu/LD50_list.html",
+    "url":"http://www.constants.datanab.net/biology/human_ld50_nicotine_iv_json"
+}
