@@ -372,7 +372,7 @@ def index():
 
 """cat LD50"""
 
-@app.route('/biology/cat_ld50_theobromine_json', endpoint='cat_ld50_theobromine_json')
+@app.route('/biology/cat_ld50_theobromine_json', endpoint='/biology/cat_ld50_theobromine_json')
 def index():
     return render_template('json/biology/cat_ld50_theobromine.json')
 
