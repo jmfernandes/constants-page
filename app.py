@@ -363,6 +363,7 @@ def index():
 def index():
     return render_template('json/biology/human_ld50_theobromine.json')
 
+"""dog ld50"""
 
 @app.route('/biology/dog_ld50_theobromine_json', endpoint='/biology/dog_ld50_theobromine_json')
 def index():
