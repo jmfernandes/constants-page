@@ -1,10 +1,10 @@
 {
-    "value": 300,
+    "value": 2570,
     "symbol": "LD",
     "subscript": "50",
     "units": "mg/Kg",
-    "name": "LD50 of Theobromine for dogs",
+    "name": "LD50 of Vitamin A for humans",
     "condition": "taken orally by mice",
     "citation": "http://www.lycaeum.org/mv/mu/LD50_list.html",
-    "url":"http://www.constants.datanab.net/biology/dog_ld50_theobromine_json"
+    "url":"http://www.constants.datanab.net/biology/human_ld50_vitamin_a_json"
 }
