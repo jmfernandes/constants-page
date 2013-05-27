@@ -218,7 +218,7 @@ def index():
 
 @app.route('/biology/dog_ld50_theobromine', endpoint='dog_ld50_theobromine')
 def index():
-    json_file = open('templates/json/biology/dog_ld50_theobromine.json')
+    json_file = open('templates/json/biology/human_ld50_theobromine.json')
     data = json.load(json_file)
     json_file.close()
     return render_template('webpage.html',data=data)
