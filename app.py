@@ -128,6 +128,13 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
+@app.route('/biology/theobromine_cocoa', endpoint='theobromine_cocoa')
+def index():
+    json_file = open('templates/json/biology/theobromine_cocoa.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
 """human LD50"""
 
 @app.route('/biology/human_ld50_vitamin_a', endpoint='human_ld50_vitamin_a')
@@ -362,6 +369,10 @@ def index():
 @app.route('/biology/human_ld50_theobromine_json', endpoint='/biology/human_ld50_theobromine_json')
 def index():
     return render_template('json/biology/human_ld50_theobromine.json')
+
+@app.route('/biology/theobromine_cocoa_json', endpoint='/biology/theobromine_cocoa_json')
+def index():
+    return render_template('json/biology/theobromine_cocoa.json')
 
 """dog ld50"""
 
