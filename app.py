@@ -75,6 +75,13 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
+@app.route('/physics/speed_of_sound', endpoint='speed_of_sound')
+def index():
+    json_file = open('templates/json/physics/speed_of_sound.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
 @app.route('/physics/vacuum_permeability', endpoint='vacuum_permeability')
 def index():
     json_file = open('templates/json/physics/vacuum_permeability.json')
@@ -286,9 +293,13 @@ def index():
 def index():
     return render_template('json/physics/elementary_charge.json')
 
-@app.route('/physics/speed_of_light_json', endpoint='elementary_charge_json')
+@app.route('/physics/speed_of_light_json', endpoint='speed_of_light_json')
 def index():
     return render_template('json/physics/speed_of_light.json')
+
+@app.route('/physics/speed_of_sound_json', endpoint='speed_of_sound_json')
+def index():
+    return render_template('json/physics/speed_of_sound.json')
 
 @app.route('/physics/vacuum_permeability_json', endpoint='vacuum_permeability_json')
 def index():

@@ -1,0 +1,9 @@
+{
+"value": 343.2,
+"symbol": "c",
+"subscript": "",
+"units": "meters/seconds", 
+"name": "Speed of Sound in dry air at 20˚C",
+"citation": "http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA076060&Location=U2&doc=GetTRDoc.pdf",
+"url":"http://www.constants.datanab.net/physics/speed_of_sound_json"
+}
