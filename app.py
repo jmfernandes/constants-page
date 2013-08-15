@@ -369,7 +369,7 @@ def index():
     data = json.load(json_file)
     json_file.close()
     return  render_template('webpage.html',data=data)
-@app.route('/natural/jupiter/length_of_day', endpoint='length_of_day')
+@app.route('/natural/jupiter/length_of_day', endpoint='/jupiter/length_of_day')
 def index():
     json_file = open('templates/json/natural/jupiter/length_of_day.json')
     data = json.load(json_file)
