@@ -1,0 +1,9 @@
+{
+"value": 9.798,
+"symbol": "g",
+"subscript": "",
+"units": "meters/second^2",
+"name": "Surface Gravity of Earth", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+"url":"http://www.constants.datanab.net/natural/earth/surface_gravity_json"
+}

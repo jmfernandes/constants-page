@@ -1,0 +1,9 @@
+{
+"value": 29780.0,
+"symbol": "v",
+"subscript": "",
+"units": "meters/second",
+"name": "Mean Orbital Velocity of Earth", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+"url":"http://www.constants.datanab.net/natural/earth/mean_orbital_velocity_json"
+}

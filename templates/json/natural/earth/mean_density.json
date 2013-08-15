@@ -1,0 +1,9 @@
+{
+"value": 5514,
+"symbol": "ρ",
+"subscript": "",
+"units": "kilogram/meters^3",
+"name": "Mean Density of Earth", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+"url":"http://www.constants.datanab.net/natural/earth/mean_density_json"
+}

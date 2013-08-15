@@ -1,0 +1,9 @@
+{
+"value": 365.2,
+"symbol": "T",
+"subscript": "",
+"units": "days",
+"name": "Orbital Period of Earth", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+"url":"http://www.constants.datanab.net/natural/earth/orbital_period_json"
+}

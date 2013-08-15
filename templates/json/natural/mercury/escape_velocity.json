@@ -1,0 +1,9 @@
+{
+"value": 2380,
+"symbol": "v",
+"subscript": "e",
+"units": "meters/second",
+"name": "Escape Velocity of Mercury", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html",
+"url":"http://www.constants.datanab.net/natural/mercury/escape_velocity_json"
+}

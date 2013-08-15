@@ -1,0 +1,9 @@
+{
+"value": 1023,
+"symbol": "v",
+"subscript": "",
+"units": "meters/second",
+"name": "Mean Orbital Velocity of Mars", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+"url":"http://www.constants.datanab.net/natural/mars/mean_orbital_velocity_json"
+}

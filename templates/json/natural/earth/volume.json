@@ -1,0 +1,9 @@
+{
+"value": 108.321E21,
+"symbol": "V",
+"subscript": "",
+"units": "meters^3",
+"name": "Volume of Earth", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+"url":"http://www.constants.datanab.net/natural/earth/volume_json"
+}

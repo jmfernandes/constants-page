@@ -1,0 +1,9 @@
+{
+"value": 1.62,
+"symbol": "g",
+"subscript": "",
+"units": "meters/seconds^2",
+"name": "Surface Gravity of Neptune", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/neptunefact.html",
+"url":"http://www.constants.datanab.net/natural/neptune/surface_gravity_json"
+}

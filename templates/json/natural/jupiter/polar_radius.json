@@ -1,0 +1,9 @@
+{
+"value": 1.736E6,
+"symbol": "R",
+"subscript": "p",
+"units": "meters",
+"name": "Polar Radius of Jupiter", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+"url":"http://www.constants.datanab.net/natural/jupiter/polar_radius_json"
+}

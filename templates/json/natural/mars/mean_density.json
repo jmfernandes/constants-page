@@ -1,0 +1,9 @@
+{
+"value": 3344,
+"symbol": "ρ",
+"subscript": "",
+"units": "kilograms/meters^3",
+"name": "Mean Density of Mars", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+"url":"http://www.constants.datanab.net/natural/mars/mean_density_json"
+}

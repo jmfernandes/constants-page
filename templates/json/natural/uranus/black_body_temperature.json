@@ -1,0 +1,9 @@
+{
+"value": 270.7,
+"symbol": "T",
+"subscript": "",
+"units": "Kelvin",
+"name": "Black-body Temperatre of Uranus", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+"url":"http://www.constants.datanab.net/natural/uranus/black_body_temperature_json"
+}

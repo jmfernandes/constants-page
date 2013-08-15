@@ -1,0 +1,9 @@
+{
+"value": 3344,
+"symbol": "ρ",
+"subscript": "",
+"units": "kilograms/meters^3",
+"name": "Mean Density of Jupiter", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/jupiterfact.html",
+"url":"http://www.constants.datanab.net/natural/jupiter/mean_density_json"
+}

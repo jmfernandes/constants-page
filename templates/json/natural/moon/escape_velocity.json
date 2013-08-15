@@ -1,0 +1,9 @@
+{
+"value": 2380,
+"symbol": "v",
+"subscript": "e",
+"units": "meters/second",
+"name": "Escape Velocity of Moon", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+"url":"http://www.constants.datanab.net/natural/moon/escape_velocity_json"
+}

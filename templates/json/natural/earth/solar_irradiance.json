@@ -1,0 +1,9 @@
+{
+"value": 1367.6,
+"symbol": "I",
+"subscript": "",
+"units": "Watts/meters^2",
+"name": "Solar Irradiance of Earth", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+"url":"http://www.constants.datanab.net/natural/earth/solar_irradiance_json"
+}

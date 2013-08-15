@@ -1,0 +1,9 @@
+{
+"value": 1.736E6,
+"symbol": "R",
+"subscript": "p",
+"units": "meters",
+"name": "Polar Radius of Uranus", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/uranusfact.html",
+"url":"http://www.constants.datanab.net/natural/uranus/polar_radius_json"
+}

@@ -1,0 +1,9 @@
+{
+"value": 7.342E22,
+"symbol": "M",
+"subscript": "",
+"units": "kilograms",
+"name": "Mass of Moon", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+"url":"http://www.constants.datanab.net/natural/moon/mass_json"
+}

@@ -1,0 +1,9 @@
+{
+"value": 1.7381E6,
+"symbol": "R",
+"subscript": "e",
+"units": "meters",
+"name": "Equatorial Radius of Saturn", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+"url":"http://www.constants.datanab.net/natural/saturn/equatorial_radius_json"
+}

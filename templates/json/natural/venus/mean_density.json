@@ -1,0 +1,9 @@
+{
+"value": 3344,
+"symbol": "ρ",
+"subscript": "",
+"units": "kilograms/meters^3",
+"name": "Mean Density of Venus", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/Venusfact.html",
+"url":"http://www.constants.datanab.net/natural/venus/mean_density_json"
+}

@@ -1,0 +1,9 @@
+{
+"value": 2380,
+"symbol": "v",
+"subscript": "e",
+"units": "meters/second",
+"name": "Escape Velocity of Saturn", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html",
+"url":"http://www.constants.datanab.net/natural/saturn/escape_velocity_json"
+}

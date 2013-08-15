@@ -1,0 +1,9 @@
+{
+"value": 1367.6,
+"symbol": "I",
+"subscript": "",
+"units": "Watts/meters^2",
+"name": "Solar Irradiance of Mars", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+"url":"http://www.constants.datanab.net/natural/mars/solar_irradiance_json"
+}

@@ -401,9 +401,411 @@ def index():
 
 """Natural Constants"""
 
-@app.route('/natural/equatorial_radius_of_earth_json', endpoint='/natural/equatorial_radius_of_earth_json')
+"""Earth"""
+@app.route('/natural/earth/axial_tilt_json', endpoint='/natural/earth/axial_tilt_json')
 def index():
-    return render_template('json/natural/equatorial_radius_of_earth.json')
+    return render_template('json/natural/earth/axial_tilt.json')
+@app.route('/natural/earth/black_body_temperature_json', endpoint='/natural/earth/black_body_temperature_json')
+def index():
+    return render_template('json/natural/earth/black_body_temperature.json')
+@app.route('/natural/earth/distance_from_sun_json', endpoint='/natural/earth/distance_from_sun_json')
+def index():
+    return render_template('json/natural/earth/distance_from_sun.json')
+@app.route('/natural/earth/equatorial_radius_json', endpoint='/natural/earth/equatorial_radius_json')
+def index():
+    return render_template('json/natural/earth/equatorial_radius.json')
+@app.route('/natural/earth/escape_velocity_json', endpoint='/natural/earth/escape_velocity_json')
+def index():
+    return render_template('json/natural/earth/escape_velocity.json')
+@app.route('/natural/earth/length_of_day_json', endpoint='/natural/earth/length_of_day_json')
+def index():
+    return render_template('json/natural/earth/length_of_day.json')
+@app.route('/natural/earth/mass_json', endpoint='/natural/earth/mass_json')
+def index():
+    return render_template('json/natural/earth/mass.json')
+@app.route('/natural/earth/mean_density_json', endpoint='/natural/earth/mean_density_json')
+def index():
+    return render_template('json/natural/earth/mean_density.json')
+@app.route('/natural/earth/mean_orbital_velocity_json', endpoint='/natural/earth/mean_orbital_velocity_json')
+def index():
+    return render_template('json/natural/earth/mean_orbital_velocity.json')
+@app.route('/natural/earth/orbital_period_json', endpoint='/natural/earth/orbital_period_json')
+def index():
+    return render_template('json/natural/earth/orbital_period.json')
+@app.route('/natural/earth/polar_radius_json', endpoint='/natural/earth/polar_radius_json')
+def index():
+    return render_template('json/natural/earth/polar_radius.json')
+@app.route('/natural/earth/solar_irradiance_json', endpoint='/natural/earth/solar_irradiance_json')
+def index():
+    return render_template('json/natural/earth/solar_irradiance.json')
+@app.route('/natural/earth/surface_gravity_json', endpoint='/natural/earth/surface_gravity_json')
+def index():
+    return render_template('json/natural/earth/surface_gravity.json')
+@app.route('/natural/earth/volume_json', endpoint='/natural/earth/volume_json')
+def index():
+    return render_template('json/natural/earth/volume.json')
+
+
+"""Jupiter"""
+@app.route('/natural/jupiter/axial_tilt_json', endpoint='/natural/jupiter/axial_tilt_json')
+def index():
+    return render_template('json/natural/jupiter/axial_tilt.json')
+@app.route('/natural/jupiter/black_body_temperature_json', endpoint='/natural/jupiter/black_body_temperature_json')
+def index():
+    return render_template('json/natural/jupiter/black_body_temperature.json')
+@app.route('/natural/jupiter/distance_from_sun_json', endpoint='/natural/jupiter/distance_from_sun_json')
+def index():
+    return render_template('json/natural/jupiter/distance_from_sun.json')
+@app.route('/natural/jupiter/equatorial_radius_json', endpoint='/natural/jupiter/equatorial_radius_json')
+def index():
+    return render_template('json/natural/jupiter/equatorial_radius.json')
+@app.route('/natural/jupiter/escape_velocity_json', endpoint='/natural/jupiter/escape_velocity_json')
+def index():
+    return render_template('json/natural/jupiter/escape_velocity.json')
+@app.route('/natural/jupiter/length_of_day_json', endpoint='/natural/jupiter/length_of_day_json')
+def index():
+    return render_template('json/natural/jupiter/length_of_day.json')
+@app.route('/natural/jupiter/mass_json', endpoint='/natural/jupiter/mass_json')
+def index():
+    return render_template('json/natural/jupiter/mass.json')
+@app.route('/natural/jupiter/mean_density_json', endpoint='/natural/jupiter/mean_density_json')
+def index():
+    return render_template('json/natural/jupiter/mean_density.json')
+@app.route('/natural/jupiter/mean_orbital_velocity_json', endpoint='/natural/jupiter/mean_orbital_velocity_json')
+def index():
+    return render_template('json/natural/jupiter/mean_orbital_velocity.json')
+@app.route('/natural/jupiter/orbital_period_json', endpoint='/natural/jupiter/orbital_period_json')
+def index():
+    return render_template('json/natural/jupiter/orbital_period.json')
+@app.route('/natural/jupiter/polar_radius_json', endpoint='/natural/jupiter/polar_radius_json')
+def index():
+    return render_template('json/natural/jupiter/polar_radius.json')
+@app.route('/natural/jupiter/solar_irradiance_json', endpoint='/natural/jupiter/solar_irradiance_json')
+def index():
+    return render_template('json/natural/jupiter/solar_irradiance.json')
+@app.route('/natural/jupiter/surface_gravity_json', endpoint='/natural/jupiter/surface_gravity_json')
+def index():
+    return render_template('json/natural/jupiter/surface_gravity.json')
+@app.route('/natural/jupiter/volume_json', endpoint='/natural/jupiter/volume_json')
+def index():
+    return render_template('json/natural/jupiter/volume.json')
+
+
+"""Mars"""
+@app.route('/natural/mars/axial_tilt_json', endpoint='/natural/mars/axial_tilt_json')
+def index():
+    return render_template('json/natural/mars/axial_tilt.json')
+@app.route('/natural/mars/black_body_temperature_json', endpoint='/natural/mars/black_body_temperature_json')
+def index():
+    return render_template('json/natural/mars/black_body_temperature.json')
+@app.route('/natural/mars/distance_from_sun_json', endpoint='/natural/mars/distance_from_sun_json')
+def index():
+    return render_template('json/natural/mars/distance_from_sun.json')
+@app.route('/natural/mars/equatorial_radius_json', endpoint='/natural/mars/equatorial_radius_json')
+def index():
+    return render_template('json/natural/mars/equatorial_radius.json')
+@app.route('/natural/mars/escape_velocity_json', endpoint='/natural/mars/escape_velocity_json')
+def index():
+    return render_template('json/natural/mars/escape_velocity.json')
+@app.route('/natural/mars/length_of_day_json', endpoint='/natural/mars/length_of_day_json')
+def index():
+    return render_template('json/natural/mars/length_of_day.json')
+@app.route('/natural/mars/mass_json', endpoint='/natural/mars/mass_json')
+def index():
+    return render_template('json/natural/mars/mass.json')
+@app.route('/natural/mars/mean_density_json', endpoint='/natural/mars/mean_density_json')
+def index():
+    return render_template('json/natural/mars/mean_density.json')
+@app.route('/natural/mars/mean_orbital_velocity_json', endpoint='/natural/mars/mean_orbital_velocity_json')
+def index():
+    return render_template('json/natural/mars/mean_orbital_velocity.json')
+@app.route('/natural/mars/orbital_period_json', endpoint='/natural/mars/orbital_period_json')
+def index():
+    return render_template('json/natural/mars/orbital_period.json')
+@app.route('/natural/mars/polar_radius_json', endpoint='/natural/mars/polar_radius_json')
+def index():
+    return render_template('json/natural/mars/polar_radius.json')
+@app.route('/natural/mars/solar_irradiance_json', endpoint='/natural/mars/solar_irradiance_json')
+def index():
+    return render_template('json/natural/mars/solar_irradiance.json')
+@app.route('/natural/mars/surface_gravity_json', endpoint='/natural/mars/surface_gravity_json')
+def index():
+    return render_template('json/natural/mars/surface_gravity.json')
+@app.route('/natural/mars/volume_json', endpoint='/natural/mars/volume_json')
+def index():
+    return render_template('json/natural/mars/volume.json')
+
+
+"""Mercury"""
+@app.route('/natural/mercury/axial_tilt_json', endpoint='/natural/mercury/axial_tilt_json')
+def index():
+    return render_template('json/natural/mercury/axial_tilt.json')
+@app.route('/natural/mercury/black_body_temperature_json', endpoint='/natural/mercury/black_body_temperature_json')
+def index():
+    return render_template('json/natural/mercury/black_body_temperature.json')
+@app.route('/natural/mercury/distance_from_sun_json', endpoint='/natural/mercury/distance_from_sun_json')
+def index():
+    return render_template('json/natural/mercury/distance_from_sun.json')
+@app.route('/natural/mercury/equatorial_radius_json', endpoint='/natural/mercury/equatorial_radius_json')
+def index():
+    return render_template('json/natural/mercury/equatorial_radius.json')
+@app.route('/natural/mercury/escape_velocity_json', endpoint='/natural/mercury/escape_velocity_json')
+def index():
+    return render_template('json/natural/mercury/escape_velocity.json')
+@app.route('/natural/mercury/length_of_day_json', endpoint='/natural/mercury/length_of_day_json')
+def index():
+    return render_template('json/natural/mercury/length_of_day.json')
+@app.route('/natural/mercury/mass_json', endpoint='/natural/mercury/mass_json')
+def index():
+    return render_template('json/natural/mercury/mass.json')
+@app.route('/natural/mercury/mean_density_json', endpoint='/natural/mercury/mean_density_json')
+def index():
+    return render_template('json/natural/mercury/mean_density.json')
+@app.route('/natural/mercury/mean_orbital_velocity_json', endpoint='/natural/mercury/mean_orbital_velocity_json')
+def index():
+    return render_template('json/natural/mercury/mean_orbital_velocity.json')
+@app.route('/natural/mercury/orbital_period_json', endpoint='/natural/mercury/orbital_period_json')
+def index():
+    return render_template('json/natural/mercury/orbital_period.json')
+@app.route('/natural/mercury/polar_radius_json', endpoint='/natural/mercury/polar_radius_json')
+def index():
+    return render_template('json/natural/mercury/polar_radius.json')
+@app.route('/natural/mercury/solar_irradiance_json', endpoint='/natural/mercury/solar_irradiance_json')
+def index():
+    return render_template('json/natural/mercury/solar_irradiance.json')
+@app.route('/natural/mercury/surface_gravity_json', endpoint='/natural/mercury/surface_gravity_json')
+def index():
+    return render_template('json/natural/mercury/surface_gravity.json')
+@app.route('/natural/mercury/volume_json', endpoint='/natural/mercury/volume_json')
+def index():
+    return render_template('json/natural/mercury/volume.json')
+
+
+"""Moon"""
+@app.route('/natural/moon/axial_tilt_json', endpoint='/natural/moon/axial_tilt_json')
+def index():
+    return render_template('json/natural/moon/axial_tilt.json')
+@app.route('/natural/moon/black_body_temperature_json', endpoint='/natural/moon/black_body_temperature_json')
+def index():
+    return render_template('json/natural/moon/black_body_temperature.json')
+@app.route('/natural/moon/distance_from_sun_json', endpoint='/natural/moon/distance_from_sun_json')
+def index():
+    return render_template('json/natural/moon/distance_from_sun.json')
+@app.route('/natural/moon/equatorial_radius_json', endpoint='/natural/moon/equatorial_radius_json')
+def index():
+    return render_template('json/natural/moon/equatorial_radius.json')
+@app.route('/natural/moon/escape_velocity_json', endpoint='/natural/moon/escape_velocity_json')
+def index():
+    return render_template('json/natural/moon/escape_velocity.json')
+@app.route('/natural/moon/length_of_day_json', endpoint='/natural/moon/length_of_day_json')
+def index():
+    return render_template('json/natural/moon/length_of_day.json')
+@app.route('/natural/moon/mass_json', endpoint='/natural/moon/mass_json')
+def index():
+    return render_template('json/natural/moon/mass.json')
+@app.route('/natural/moon/mean_density_json', endpoint='/natural/moon/mean_density_json')
+def index():
+    return render_template('json/natural/moon/mean_density.json')
+@app.route('/natural/moon/mean_orbital_velocity_json', endpoint='/natural/moon/mean_orbital_velocity_json')
+def index():
+    return render_template('json/natural/moon/mean_orbital_velocity.json')
+@app.route('/natural/moon/orbital_period_json', endpoint='/natural/moon/orbital_period_json')
+def index():
+    return render_template('json/natural/moon/orbital_period.json')
+@app.route('/natural/moon/polar_radius_json', endpoint='/natural/moon/polar_radius_json')
+def index():
+    return render_template('json/natural/moon/polar_radius.json')
+@app.route('/natural/moon/solar_irradiance_json', endpoint='/natural/moon/solar_irradiance_json')
+def index():
+    return render_template('json/natural/moon/solar_irradiance.json')
+@app.route('/natural/moon/surface_gravity_json', endpoint='/natural/moon/surface_gravity_json')
+def index():
+    return render_template('json/natural/moon/surface_gravity.json')
+@app.route('/natural/moon/volume_json', endpoint='/natural/moon/volume_json')
+def index():
+    return render_template('json/natural/moon/volume.json')
+
+
+"""Neptune"""
+@app.route('/natural/neptune/axial_tilt_json', endpoint='/natural/neptune/axial_tilt_json')
+def index():
+    return render_template('json/natural/neptune/axial_tilt.json')
+@app.route('/natural/neptune/black_body_temperature_json', endpoint='/natural/neptune/black_body_temperature_json')
+def index():
+    return render_template('json/natural/neptune/black_body_temperature.json')
+@app.route('/natural/neptune/distance_from_sun_json', endpoint='/natural/neptune/distance_from_sun_json')
+def index():
+    return render_template('json/natural/neptune/distance_from_sun.json')
+@app.route('/natural/neptune/equatorial_radius_json', endpoint='/natural/neptune/equatorial_radius_json')
+def index():
+    return render_template('json/natural/neptune/equatorial_radius.json')
+@app.route('/natural/neptune/escape_velocity_json', endpoint='/natural/neptune/escape_velocity_json')
+def index():
+    return render_template('json/natural/neptune/escape_velocity.json')
+@app.route('/natural/neptune/length_of_day_json', endpoint='/natural/neptune/length_of_day_json')
+def index():
+    return render_template('json/natural/neptune/length_of_day.json')
+@app.route('/natural/neptune/mass_json', endpoint='/natural/neptune/mass_json')
+def index():
+    return render_template('json/natural/neptune/mass.json')
+@app.route('/natural/neptune/mean_density_json', endpoint='/natural/neptune/mean_density_json')
+def index():
+    return render_template('json/natural/neptune/mean_density.json')
+@app.route('/natural/neptune/mean_orbital_velocity_json', endpoint='/natural/neptune/mean_orbital_velocity_json')
+def index():
+    return render_template('json/natural/neptune/mean_orbital_velocity.json')
+@app.route('/natural/neptune/orbital_period_json', endpoint='/natural/neptune/orbital_period_json')
+def index():
+    return render_template('json/natural/neptune/orbital_period.json')
+@app.route('/natural/neptune/polar_radius_json', endpoint='/natural/neptune/polar_radius_json')
+def index():
+    return render_template('json/natural/neptune/polar_radius.json')
+@app.route('/natural/neptune/solar_irradiance_json', endpoint='/natural/neptune/solar_irradiance_json')
+def index():
+    return render_template('json/natural/neptune/solar_irradiance.json')
+@app.route('/natural/neptune/surface_gravity_json', endpoint='/natural/neptune/surface_gravity_json')
+def index():
+    return render_template('json/natural/neptune/surface_gravity.json')
+@app.route('/natural/neptune/volume_json', endpoint='/natural/neptune/volume_json')
+def index():
+    return render_template('json/natural/neptune/volume.json')
+
+
+"""Saturn"""
+@app.route('/natural/saturn/axial_tilt_json', endpoint='/natural/saturn/axial_tilt_json')
+def index():
+    return render_template('json/natural/saturn/axial_tilt.json')
+@app.route('/natural/saturn/black_body_temperature_json', endpoint='/natural/saturn/black_body_temperature_json')
+def index():
+    return render_template('json/natural/saturn/black_body_temperature.json')
+@app.route('/natural/saturn/distance_from_sun_json', endpoint='/natural/saturn/distance_from_sun_json')
+def index():
+    return render_template('json/natural/saturn/distance_from_sun.json')
+@app.route('/natural/saturn/equatorial_radius_json', endpoint='/natural/saturn/equatorial_radius_json')
+def index():
+    return render_template('json/natural/saturn/equatorial_radius.json')
+@app.route('/natural/saturn/escape_velocity_json', endpoint='/natural/saturn/escape_velocity_json')
+def index():
+    return render_template('json/natural/saturn/escape_velocity.json')
+@app.route('/natural/saturn/length_of_day_json', endpoint='/natural/saturn/length_of_day_json')
+def index():
+    return render_template('json/natural/saturn/length_of_day.json')
+@app.route('/natural/saturn/mass_json', endpoint='/natural/saturn/mass_json')
+def index():
+    return render_template('json/natural/saturn/mass.json')
+@app.route('/natural/saturn/mean_density_json', endpoint='/natural/saturn/mean_density_json')
+def index():
+    return render_template('json/natural/saturn/mean_density.json')
+@app.route('/natural/saturn/mean_orbital_velocity_json', endpoint='/natural/saturn/mean_orbital_velocity_json')
+def index():
+    return render_template('json/natural/saturn/mean_orbital_velocity.json')
+@app.route('/natural/saturn/orbital_period_json', endpoint='/natural/saturn/orbital_period_json')
+def index():
+    return render_template('json/natural/saturn/orbital_period.json')
+@app.route('/natural/saturn/polar_radius_json', endpoint='/natural/saturn/polar_radius_json')
+def index():
+    return render_template('json/natural/saturn/polar_radius.json')
+@app.route('/natural/saturn/solar_irradiance_json', endpoint='/natural/saturn/solar_irradiance_json')
+def index():
+    return render_template('json/natural/saturn/solar_irradiance.json')
+@app.route('/natural/saturn/surface_gravity_json', endpoint='/natural/saturn/surface_gravity_json')
+def index():
+    return render_template('json/natural/saturn/surface_gravity.json')
+@app.route('/natural/saturn/volume_json', endpoint='/natural/saturn/volume_json')
+def index():
+    return render_template('json/natural/saturn/volume.json')
+
+
+"""Uranus"""
+@app.route('/natural/uranus/axial_tilt_json', endpoint='/natural/uranus/axial_tilt_json')
+def index():
+    return render_template('json/natural/uranus/axial_tilt.json')
+@app.route('/natural/uranus/black_body_temperature_json', endpoint='/natural/uranus/black_body_temperature_json')
+def index():
+    return render_template('json/natural/uranus/black_body_temperature.json')
+@app.route('/natural/uranus/distance_from_sun_json', endpoint='/natural/uranus/distance_from_sun_json')
+def index():
+    return render_template('json/natural/uranus/distance_from_sun.json')
+@app.route('/natural/uranus/equatorial_radius_json', endpoint='/natural/uranus/equatorial_radius_json')
+def index():
+    return render_template('json/natural/uranus/equatorial_radius.json')
+@app.route('/natural/uranus/escape_velocity_json', endpoint='/natural/uranus/escape_velocity_json')
+def index():
+    return render_template('json/natural/uranus/escape_velocity.json')
+@app.route('/natural/uranus/length_of_day_json', endpoint='/natural/uranus/length_of_day_json')
+def index():
+    return render_template('json/natural/uranus/length_of_day.json')
+@app.route('/natural/uranus/mass_json', endpoint='/natural/uranus/mass_json')
+def index():
+    return render_template('json/natural/uranus/mass.json')
+@app.route('/natural/uranus/mean_density_json', endpoint='/natural/uranus/mean_density_json')
+def index():
+    return render_template('json/natural/uranus/mean_density.json')
+@app.route('/natural/uranus/mean_orbital_velocity_json', endpoint='/natural/uranus/mean_orbital_velocity_json')
+def index():
+    return render_template('json/natural/uranus/mean_orbital_velocity.json')
+@app.route('/natural/uranus/orbital_period_json', endpoint='/natural/uranus/orbital_period_json')
+def index():
+    return render_template('json/natural/uranus/orbital_period.json')
+@app.route('/natural/uranus/polar_radius_json', endpoint='/natural/uranus/polar_radius_json')
+def index():
+    return render_template('json/natural/uranus/polar_radius.json')
+@app.route('/natural/uranus/solar_irradiance_json', endpoint='/natural/uranus/solar_irradiance_json')
+def index():
+    return render_template('json/natural/uranus/solar_irradiance.json')
+@app.route('/natural/uranus/surface_gravity_json', endpoint='/natural/uranus/surface_gravity_json')
+def index():
+    return render_template('json/natural/uranus/surface_gravity.json')
+@app.route('/natural/uranus/volume_json', endpoint='/natural/uranus/volume_json')
+def index():
+    return render_template('json/natural/uranus/volume.json')
+
+
+"""Venus"""
+@app.route('/natural/venus/axial_tilt_json', endpoint='/natural/venus/axial_tilt_json')
+def index():
+    return render_template('json/natural/venus/axial_tilt.json')
+@app.route('/natural/venus/black_body_temperature_json', endpoint='/natural/venus/black_body_temperature_json')
+def index():
+    return render_template('json/natural/venus/black_body_temperature.json')
+@app.route('/natural/venus/distance_from_sun_json', endpoint='/natural/venus/distance_from_sun_json')
+def index():
+    return render_template('json/natural/venus/distance_from_sun.json')
+@app.route('/natural/venus/equatorial_radius_json', endpoint='/natural/venus/equatorial_radius_json')
+def index():
+    return render_template('json/natural/venus/equatorial_radius.json')
+@app.route('/natural/venus/escape_velocity_json', endpoint='/natural/venus/escape_velocity_json')
+def index():
+    return render_template('json/natural/venus/escape_velocity.json')
+@app.route('/natural/venus/length_of_day_json', endpoint='/natural/venus/length_of_day_json')
+def index():
+    return render_template('json/natural/venus/length_of_day.json')
+@app.route('/natural/venus/mass_json', endpoint='/natural/venus/mass_json')
+def index():
+    return render_template('json/natural/venus/mass.json')
+@app.route('/natural/venus/mean_density_json', endpoint='/natural/venus/mean_density_json')
+def index():
+    return render_template('json/natural/venus/mean_density.json')
+@app.route('/natural/venus/mean_orbital_velocity_json', endpoint='/natural/venus/mean_orbital_velocity_json')
+def index():
+    return render_template('json/natural/venus/mean_orbital_velocity.json')
+@app.route('/natural/venus/orbital_period_json', endpoint='/natural/venus/orbital_period_json')
+def index():
+    return render_template('json/natural/venus/orbital_period.json')
+@app.route('/natural/venus/polar_radius_json', endpoint='/natural/venus/polar_radius_json')
+def index():
+    return render_template('json/natural/venus/polar_radius.json')
+@app.route('/natural/venus/solar_irradiance_json', endpoint='/natural/venus/solar_irradiance_json')
+def index():
+    return render_template('json/natural/venus/solar_irradiance.json')
+@app.route('/natural/venus/surface_gravity_json', endpoint='/natural/venus/surface_gravity_json')
+def index():
+    return render_template('json/natural/venus/surface_gravity.json')
+@app.route('/natural/venus/volume_json', endpoint='/natural/venus/volume_json')
+def index():
+    return render_template('json/natural/venus/volume.json')
+
+
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.

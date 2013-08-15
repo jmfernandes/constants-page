@@ -1,0 +1,9 @@
+{
+"value": 23.4,
+"symbol": "ε",
+"subscript": "",
+"units": "degrees",
+"name": "Axial Tilt of Earth", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+"url":"http://www.constants.datanab.net/natural/earth/axial_tilt_json"
+}

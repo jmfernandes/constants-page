@@ -1,0 +1,9 @@
+{
+"value": 254.3,
+"symbol": "T",
+"subscript": "",
+"units": "Kelvin",
+"name": "Black-body Temperature of Earth", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+"url":"http://www.constants.datanab.net/natural/earth/black_body_temperature_json"
+}

@@ -1,0 +1,9 @@
+{
+"value": 24.0,
+"symbol": "t",
+"subscript": "d",
+"units": "hours",
+"name": "Length of Earth Day", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+"url":"http://www.constants.datanab.net/natural/earth/length_of_day_json"
+}

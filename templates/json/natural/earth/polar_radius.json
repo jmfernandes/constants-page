@@ -1,0 +1,9 @@
+{
+"value": 6.3568E7,
+"symbol": "R",
+"subscript": "p",
+"units": "meters",
+"name": "Polar Radius of Earth", 
+"citation": "http://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+"url":"http://www.constants.datanab.net/natural/earth/polar_radius_json"
+}
