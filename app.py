@@ -940,7 +940,7 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
-"""venus"""
+"""Venus"""
 @app.route('/natural/venus/axial_tilt', endpoint='axial_tilt')
 def index():
     json_file = open('templates/json/natural/venus/axial_tilt.json')
