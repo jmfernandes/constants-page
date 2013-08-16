@@ -119,6 +119,749 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
+"""density"""
+
+@app.route('/chemistry/density/aluminum', endpoint='density/aluminum')
+def index():
+    json_file = open('templates/json/chemistry/density/aluminum.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/asphalt', endpoint='density/asphalt')
+def index():
+    json_file = open('templates/json/chemistry/density/asphalt.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/beeswax', endpoint='density/beeswax')
+def index():
+    json_file = open('templates/json/chemistry/density/beeswax.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/bituminous_coal', endpoint='density/bituminous_coal')
+def index():
+    json_file = open('templates/json/chemistry/density/bituminous_coal.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/bone', endpoint='density/bone')
+def index():
+    json_file = open('templates/json/chemistry/density/bone.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/brass', endpoint='density/brass')
+def index():
+    json_file = open('templates/json/chemistry/density/brass.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/brick', endpoint='density/brick')
+def index():
+    json_file = open('templates/json/chemistry/density/brick.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/cement', endpoint='density/cement')
+def index():
+    json_file = open('templates/json/chemistry/density/cement.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/chalk', endpoint='density/chalk')
+def index():
+    json_file = open('templates/json/chemistry/density/chalk.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/charcoal', endpoint='density/charcoal')
+def index():
+    json_file = open('templates/json/chemistry/density/charcoal.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/copper', endpoint='density/copper')
+def index():
+    json_file = open('templates/json/chemistry/density/copper.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/cork', endpoint='density/cork')
+def index():
+    json_file = open('templates/json/chemistry/density/cork.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/cotton', endpoint='density/cotton')
+def index():
+    json_file = open('templates/json/chemistry/density/cotton.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/diamond', endpoint='density/diamond')
+def index():
+    json_file = open('templates/json/chemistry/density/diamond.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/earth', endpoint='density/earth')
+def index():
+    json_file = open('templates/json/chemistry/density/earth.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/glass', endpoint='density/glass')
+def index():
+    json_file = open('templates/json/chemistry/density/glass.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/gold', endpoint='density/gold')
+def index():
+    json_file = open('templates/json/chemistry/density/gold.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/ice', endpoint='density/ice')
+def index():
+    json_file = open('templates/json/chemistry/density/ice.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/iron', endpoint='density/iron')
+def index():
+    json_file = open('templates/json/chemistry/density/iron.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/lead', endpoint='density/lead')
+def index():
+    json_file = open('templates/json/chemistry/density/lead.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/leather', endpoint='density/leather')
+def index():
+    json_file = open('templates/json/chemistry/density/leather.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/mercury', endpoint='density/mercury')
+def index():
+    json_file = open('templates/json/chemistry/density/mercury.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/nickel', endpoint='density/nickel')
+def index():
+    json_file = open('templates/json/chemistry/density/nickel.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/oak_wood', endpoint='density/oak_wood')
+def index():
+    json_file = open('templates/json/chemistry/density/oak_wood.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/paper', endpoint='density/paper')
+def index():
+    json_file = open('templates/json/chemistry/density/paper.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/plaster', endpoint='density/plaster')
+def index():
+    json_file = open('templates/json/chemistry/density/plaster.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/rubber', endpoint='density/rubber')
+def index():
+    json_file = open('templates/json/chemistry/density/rubber.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/salt', endpoint='density/salt')
+def index():
+    json_file = open('templates/json/chemistry/density/salt.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/sand', endpoint='density/sand')
+def index():
+    json_file = open('templates/json/chemistry/density/sand.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/silicon', endpoint='density/silicon')
+def index():
+    json_file = open('templates/json/chemistry/density/silicon.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/steel', endpoint='density/steel')
+def index():
+    json_file = open('templates/json/chemistry/density/steel.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/stone', endpoint='density/stone')
+def index():
+    json_file = open('templates/json/chemistry/density/stone.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/tin', endpoint='density/tin')
+def index():
+    json_file = open('templates/json/chemistry/density/tin.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/tungsten', endpoint='density/tungsten')
+def index():
+    json_file = open('templates/json/chemistry/density/tungsten.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/density/uranium', endpoint='density/uranium')
+def index():
+    json_file = open('templates/json/chemistry/density/uranium.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+"""melting point"""
+
+@app.route('/chemistry/melting_point/aluminum', endpoint='melting_point/aluminum')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/aluminum.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/asphalt', endpoint='melting_point/asphalt')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/asphalt.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/beeswax', endpoint='melting_point/beeswax')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/beeswax.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/bituminous_coal', endpoint='melting_point/bituminous_coal')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/bituminous_coal.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/bone', endpoint='melting_point/bone')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/bone.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/brass', endpoint='melting_point/brass')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/brass.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/brick', endpoint='melting_point/brick')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/brick.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/cement', endpoint='melting_point/cement')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/cement.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/chalk', endpoint='melting_point/chalk')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/chalk.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/charcoal', endpoint='melting_point/charcoal')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/charcoal.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/copper', endpoint='melting_point/copper')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/copper.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/cork', endpoint='melting_point/cork')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/cork.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/cotton', endpoint='melting_point/cotton')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/cotton.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/diamond', endpoint='melting_point/diamond')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/diamond.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/earth', endpoint='melting_point/earth')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/earth.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/glass', endpoint='melting_point/glass')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/glass.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/gold', endpoint='melting_point/gold')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/gold.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/ice', endpoint='melting_point/ice')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/ice.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/iron', endpoint='melting_point/iron')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/iron.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/lead', endpoint='melting_point/lead')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/lead.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/leather', endpoint='melting_point/leather')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/leather.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/mercury', endpoint='melting_point/mercury')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/mercury.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/nickel', endpoint='melting_point/nickel')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/nickel.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/oak_wood', endpoint='melting_point/oak_wood')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/oak_wood.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/paper', endpoint='melting_point/paper')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/paper.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/plaster', endpoint='melting_point/plaster')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/plaster.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/rubber', endpoint='melting_point/rubber')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/rubber.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/salt', endpoint='melting_point/salt')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/salt.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/sand', endpoint='melting_point/sand')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/sand.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/silicon', endpoint='melting_point/silicon')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/silicon.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/steel', endpoint='melting_point/steel')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/steel.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/stone', endpoint='melting_point/stone')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/stone.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/tin', endpoint='melting_point/tin')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/tin.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/tungsten', endpoint='melting_point/tungsten')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/tungsten.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/melting_point/uranium', endpoint='melting_point/uranium')
+def index():
+    json_file = open('templates/json/chemistry/melting_point/uranium.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+"""specific heat"""
+
+@app.route('/chemistry/specific_heat/aluminum', endpoint='specific_heat/aluminum')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/aluminum.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/asphalt', endpoint='specific_heat/asphalt')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/asphalt.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/beeswax', endpoint='specific_heat/beeswax')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/beeswax.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/bituminous_coal', endpoint='specific_heat/bituminous_coal')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/bituminous_coal.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/bone', endpoint='specific_heat/bone')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/bone.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/brass', endpoint='specific_heat/brass')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/brass.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/brick', endpoint='specific_heat/brick')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/brick.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/cement', endpoint='specific_heat/cement')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/cement.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/chalk', endpoint='specific_heat/chalk')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/chalk.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/charcoal', endpoint='specific_heat/charcoal')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/charcoal.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/copper', endpoint='specific_heat/copper')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/copper.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/cork', endpoint='specific_heat/cork')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/cork.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/cotton', endpoint='specific_heat/cotton')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/cotton.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/diamond', endpoint='specific_heat/diamond')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/diamond.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/earth', endpoint='specific_heat/earth')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/earth.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/glass', endpoint='specific_heat/glass')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/glass.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/gold', endpoint='specific_heat/gold')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/gold.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/ice', endpoint='specific_heat/ice')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/ice.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/iron', endpoint='specific_heat/iron')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/iron.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/lead', endpoint='specific_heat/lead')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/lead.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/leather', endpoint='specific_heat/leather')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/leather.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/mercury', endpoint='specific_heat/mercury')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/mercury.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/nickel', endpoint='specific_heat/nickel')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/nickel.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/oak_wood', endpoint='specific_heat/oak_wood')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/oak_wood.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/paper', endpoint='specific_heat/paper')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/paper.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/plaster', endpoint='specific_heat/plaster')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/plaster.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/rubber', endpoint='specific_heat/rubber')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/rubber.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/salt', endpoint='specific_heat/salt')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/salt.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/sand', endpoint='specific_heat/sand')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/sand.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/silicon', endpoint='specific_heat/silicon')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/silicon.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/steel', endpoint='specific_heat/steel')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/steel.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/stone', endpoint='specific_heat/stone')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/stone.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/tin', endpoint='specific_heat/tin')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/tin.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/tungsten', endpoint='specific_heat/tungsten')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/tungsten.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+@app.route('/chemistry/specific_heat/uranium', endpoint='specific_heat/uranium')
+def index():
+    json_file = open('templates/json/chemistry/specific_heat/uranium.json')
+    data = json.load(json_file)
+    json_file.close()
+    return  render_template('webpage.html',data=data)
+
+
+
 """Biology Web Pages"""
 
 @app.route('/biology/blood_volume_of_human', endpoint='blood_volume_of_human')
