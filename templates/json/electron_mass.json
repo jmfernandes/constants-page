@@ -1,9 +1,0 @@
-{
-"value": 0.510998910,
-"symbol": "m",
-"subscript": "e",
-"units": "mega electron*volts/c^2",
-"name": "Electron Rest Mass", 
-"citation": "http://physics.nist.gov/cgi-bin/cuu/Value?ep0|search_for=universal_in!",
-"url":"http://www.constants.datanab.net/physics/electron_mass_json"
-}
