@@ -743,7 +743,7 @@ def index():
 
 @app.route('/chemistry/specific_heat/iron', endpoint='specific_heat/iron')
 def index():
-    json_file = open('templates/json/chemistry/specific_heat/iron.json')
+    json_file = open('templates/json/chemistry/specific_heat/Iron.json')
     data = json.load(json_file)
     json_file.close()
     return  render_template('webpage.html',data=data)
