@@ -1090,6 +1090,433 @@ def index():
 def index():
     return render_template('json/chemistry/molar_gas_constant.json')
 
+"""density"""
+@app.route('/chemistry/density/aluminum_json', endpoint='/density/aluminum_json')
+def index():
+    return render_template('json/chemistry/density/aluminum.json')
+
+@app.route('/chemistry/density/asphalt_json', endpoint='/density/asphalt_json')
+def index():
+    return render_template('json/chemistry/density/asphalt.json')
+
+@app.route('/chemistry/density/beeswax_json', endpoint='/density/beeswax_json')
+def index():
+    return render_template('json/chemistry/density/beeswax.json')
+
+@app.route('/chemistry/density/bituminous_coal_json', endpoint='/density/bituminous_coal_json')
+def index():
+    return render_template('json/chemistry/density/bituminous_coal.json')
+
+@app.route('/chemistry/density/bone_json', endpoint='/density/bone_json')
+def index():
+    return render_template('json/chemistry/density/bone.json')
+
+@app.route('/chemistry/density/brass_json', endpoint='/density/brass_json')
+def index():
+    return render_template('json/chemistry/density/brass.json')
+
+@app.route('/chemistry/density/brick_json', endpoint='/density/brick_json')
+def index():
+    return render_template('json/chemistry/density/brick.json')
+
+@app.route('/chemistry/density/cement_json', endpoint='/density/cement_json')
+def index():
+    return render_template('json/chemistry/density/cement.json')
+
+@app.route('/chemistry/density/chalk_json', endpoint='/density/chalk_json')
+def index():
+    return render_template('json/chemistry/density/chalk.json')
+
+@app.route('/chemistry/density/charcoal_json', endpoint='/density/charcoal_json')
+def index():
+    return render_template('json/chemistry/density/charcoal.json')
+
+@app.route('/chemistry/density/copper_json', endpoint='/density/copper_json')
+def index():
+    return render_template('json/chemistry/density/copper.json')
+
+@app.route('/chemistry/density/cork_json', endpoint='/density/cork_json')
+def index():
+    return render_template('json/chemistry/density/cork.json')
+
+@app.route('/chemistry/density/cotton_json', endpoint='/density/cotton_json')
+def index():
+    return render_template('json/chemistry/density/cotton.json')
+
+@app.route('/chemistry/density/diamond_json', endpoint='/density/diamond_json')
+def index():
+    return render_template('json/chemistry/density/diamond.json')
+
+@app.route('/chemistry/density/earth_json', endpoint='/density/earth_json')
+def index():
+    return render_template('json/chemistry/density/earth.json')
+
+@app.route('/chemistry/density/glass_json', endpoint='/density/glass_json')
+def index():
+    return render_template('json/chemistry/density/glass.json')
+
+@app.route('/chemistry/density/gold_json', endpoint='/density/gold_json')
+def index():
+    return render_template('json/chemistry/density/gold.json')
+
+@app.route('/chemistry/density/ice_json', endpoint='/density/ice_json')
+def index():
+    return render_template('json/chemistry/density/ice.json')
+
+@app.route('/chemistry/density/iron_json', endpoint='/density/iron_json')
+def index():
+    return render_template('json/chemistry/density/iron.json')
+
+@app.route('/chemistry/density/lead_json', endpoint='/density/lead_json')
+def index():
+    return render_template('json/chemistry/density/lead.json')
+
+@app.route('/chemistry/density/leather_json', endpoint='/density/leather_json')
+def index():
+    return render_template('json/chemistry/density/leather.json')
+
+@app.route('/chemistry/density/mercury_json', endpoint='/density/mercury_json')
+def index():
+    return render_template('json/chemistry/density/mercury.json')
+
+@app.route('/chemistry/density/nickel_json', endpoint='/density/nickel_json')
+def index():
+    return render_template('json/chemistry/density/nickel.json')
+
+@app.route('/chemistry/density/oak_wood_json', endpoint='/density/oak_wood_json')
+def index():
+    return render_template('json/chemistry/density/oak_wood.json')
+
+@app.route('/chemistry/density/paper_json', endpoint='/density/paper_json')
+def index():
+    return render_template('json/chemistry/density/paper.json')
+
+@app.route('/chemistry/density/plaster_json', endpoint='/density/plaster_json')
+def index():
+    return render_template('json/chemistry/density/plaster.json')
+
+@app.route('/chemistry/density/rubber_json', endpoint='/density/rubber_json')
+def index():
+    return render_template('json/chemistry/density/rubber.json')
+
+@app.route('/chemistry/density/salt_json', endpoint='/density/salt_json')
+def index():
+    return render_template('json/chemistry/density/salt.json')
+
+@app.route('/chemistry/density/sand_json', endpoint='/density/sand_json')
+def index():
+    return render_template('json/chemistry/density/sand.json')
+
+@app.route('/chemistry/density/silicon_json', endpoint='/density/silicon_json')
+def index():
+    return render_template('json/chemistry/density/silicon.json')
+
+@app.route('/chemistry/density/steel_json', endpoint='/density/steel_json')
+def index():
+    return render_template('json/chemistry/density/steel.json')
+
+@app.route('/chemistry/density/stone_json', endpoint='/density/stone_json')
+def index():
+    return render_template('json/chemistry/density/stone.json')
+
+@app.route('/chemistry/density/tin_json', endpoint='/density/tin_json')
+def index():
+    return render_template('json/chemistry/density/tin.json')
+
+@app.route('/chemistry/density/tungsten_json', endpoint='/density/tungsten_json')
+def index():
+    return render_template('json/chemistry/density/tungsten.json')
+
+@app.route('/chemistry/density/uranium_json', endpoint='/density/uranium_json')
+def index():
+    return render_template('json/chemistry/density/uranium.json')
+
+
+"""melting point"""
+@app.route('/chemistry/melting_point/aluminum_json', endpoint='/melting_point/aluminum_json')
+def index():
+    return render_template('json/chemistry/melting_point/aluminum.json')
+
+@app.route('/chemistry/melting_point/asphalt_json', endpoint='/melting_point/asphalt_json')
+def index():
+    return render_template('json/chemistry/melting_point/asphalt.json')
+
+@app.route('/chemistry/melting_point/beeswax_json', endpoint='/melting_point/beeswax_json')
+def index():
+    return render_template('json/chemistry/melting_point/beeswax.json')
+
+@app.route('/chemistry/melting_point/bituminous_coal_json', endpoint='/melting_point/bituminous_coal_json')
+def index():
+    return render_template('json/chemistry/melting_point/bituminous_coal.json')
+
+@app.route('/chemistry/melting_point/bone_json', endpoint='/melting_point/bone_json')
+def index():
+    return render_template('json/chemistry/melting_point/bone.json')
+
+@app.route('/chemistry/melting_point/brass_json', endpoint='/melting_point/brass_json')
+def index():
+    return render_template('json/chemistry/melting_point/brass.json')
+
+@app.route('/chemistry/melting_point/brick_json', endpoint='/melting_point/brick_json')
+def index():
+    return render_template('json/chemistry/melting_point/brick.json')
+
+@app.route('/chemistry/melting_point/cement_json', endpoint='/melting_point/cement_json')
+def index():
+    return render_template('json/chemistry/melting_point/cement.json')
+
+@app.route('/chemistry/melting_point/chalk_json', endpoint='/melting_point/chalk_json')
+def index():
+    return render_template('json/chemistry/melting_point/chalk.json')
+
+@app.route('/chemistry/melting_point/charcoal_json', endpoint='/melting_point/charcoal_json')
+def index():
+    return render_template('json/chemistry/melting_point/charcoal.json')
+
+@app.route('/chemistry/melting_point/copper_json', endpoint='/melting_point/copper_json')
+def index():
+    return render_template('json/chemistry/melting_point/copper.json')
+
+@app.route('/chemistry/melting_point/cork_json', endpoint='/melting_point/cork_json')
+def index():
+    return render_template('json/chemistry/melting_point/cork.json')
+
+@app.route('/chemistry/melting_point/cotton_json', endpoint='/melting_point/cotton_json')
+def index():
+    return render_template('json/chemistry/melting_point/cotton.json')
+
+@app.route('/chemistry/melting_point/diamond_json', endpoint='/melting_point/diamond_json')
+def index():
+    return render_template('json/chemistry/melting_point/diamond.json')
+
+@app.route('/chemistry/melting_point/earth_json', endpoint='/melting_point/earth_json')
+def index():
+    return render_template('json/chemistry/melting_point/earth.json')
+
+@app.route('/chemistry/melting_point/glass_json', endpoint='/melting_point/glass_json')
+def index():
+    return render_template('json/chemistry/melting_point/glass.json')
+
+@app.route('/chemistry/melting_point/gold_json', endpoint='/melting_point/gold_json')
+def index():
+    return render_template('json/chemistry/melting_point/gold.json')
+
+@app.route('/chemistry/melting_point/ice_json', endpoint='/melting_point/ice_json')
+def index():
+    return render_template('json/chemistry/melting_point/ice.json')
+
+@app.route('/chemistry/melting_point/iron_json', endpoint='/melting_point/iron_json')
+def index():
+    return render_template('json/chemistry/melting_point/iron.json')
+
+@app.route('/chemistry/melting_point/lead_json', endpoint='/melting_point/lead_json')
+def index():
+    return render_template('json/chemistry/melting_point/lead.json')
+
+@app.route('/chemistry/melting_point/leather_json', endpoint='/melting_point/leather_json')
+def index():
+    return render_template('json/chemistry/melting_point/leather.json')
+
+@app.route('/chemistry/melting_point/mercury_json', endpoint='/melting_point/mercury_json')
+def index():
+    return render_template('json/chemistry/melting_point/mercury.json')
+
+@app.route('/chemistry/melting_point/nickel_json', endpoint='/melting_point/nickel_json')
+def index():
+    return render_template('json/chemistry/melting_point/nickel.json')
+
+@app.route('/chemistry/melting_point/oak_wood_json', endpoint='/melting_point/oak_wood_json')
+def index():
+    return render_template('json/chemistry/melting_point/oak_wood.json')
+
+@app.route('/chemistry/melting_point/paper_json', endpoint='/melting_point/paper_json')
+def index():
+    return render_template('json/chemistry/melting_point/paper.json')
+
+@app.route('/chemistry/melting_point/plaster_json', endpoint='/melting_point/plaster_json')
+def index():
+    return render_template('json/chemistry/melting_point/plaster.json')
+
+@app.route('/chemistry/melting_point/rubber_json', endpoint='/melting_point/rubber_json')
+def index():
+    return render_template('json/chemistry/melting_point/rubber.json')
+
+@app.route('/chemistry/melting_point/salt_json', endpoint='/melting_point/salt_json')
+def index():
+    return render_template('json/chemistry/melting_point/salt.json')
+
+@app.route('/chemistry/melting_point/sand_json', endpoint='/melting_point/sand_json')
+def index():
+    return render_template('json/chemistry/melting_point/sand.json')
+
+@app.route('/chemistry/melting_point/silicon_json', endpoint='/melting_point/silicon_json')
+def index():
+    return render_template('json/chemistry/melting_point/silicon.json')
+
+@app.route('/chemistry/melting_point/steel_json', endpoint='/melting_point/steel_json')
+def index():
+    return render_template('json/chemistry/melting_point/steel.json')
+
+@app.route('/chemistry/melting_point/stone_json', endpoint='/melting_point/stone_json')
+def index():
+    return render_template('json/chemistry/melting_point/stone.json')
+
+@app.route('/chemistry/melting_point/tin_json', endpoint='/melting_point/tin_json')
+def index():
+    return render_template('json/chemistry/melting_point/tin.json')
+
+@app.route('/chemistry/melting_point/tungsten_json', endpoint='/melting_point/tungsten_json')
+def index():
+    return render_template('json/chemistry/melting_point/tungsten.json')
+
+@app.route('/chemistry/melting_point/uranium_json', endpoint='/melting_point/uranium_json')
+def index():
+    return render_template('json/chemistry/melting_point/uranium.json')
+
+"""specific heat"""
+@app.route('/chemistry/specific_heat/aluminum_json', endpoint='/specific_heat/aluminum_json')
+def index():
+    return render_template('json/chemistry/specific_heat/aluminum.json')
+
+@app.route('/chemistry/specific_heat/asphalt_json', endpoint='/specific_heat/asphalt_json')
+def index():
+    return render_template('json/chemistry/specific_heat/asphalt.json')
+
+@app.route('/chemistry/specific_heat/beeswax_json', endpoint='/specific_heat/beeswax_json')
+def index():
+    return render_template('json/chemistry/specific_heat/beeswax.json')
+
+@app.route('/chemistry/specific_heat/bituminous_coal_json', endpoint='/specific_heat/bituminous_coal_json')
+def index():
+    return render_template('json/chemistry/specific_heat/bituminous_coal.json')
+
+@app.route('/chemistry/specific_heat/bone_json', endpoint='/specific_heat/bone_json')
+def index():
+    return render_template('json/chemistry/specific_heat/bone.json')
+
+@app.route('/chemistry/specific_heat/brass_json', endpoint='/specific_heat/brass_json')
+def index():
+    return render_template('json/chemistry/specific_heat/brass.json')
+
+@app.route('/chemistry/specific_heat/brick_json', endpoint='/specific_heat/brick_json')
+def index():
+    return render_template('json/chemistry/specific_heat/brick.json')
+
+@app.route('/chemistry/specific_heat/cement_json', endpoint='/specific_heat/cement_json')
+def index():
+    return render_template('json/chemistry/specific_heat/cement.json')
+
+@app.route('/chemistry/specific_heat/chalk_json', endpoint='/specific_heat/chalk_json')
+def index():
+    return render_template('json/chemistry/specific_heat/chalk.json')
+
+@app.route('/chemistry/specific_heat/charcoal_json', endpoint='/specific_heat/charcoal_json')
+def index():
+    return render_template('json/chemistry/specific_heat/charcoal.json')
+
+@app.route('/chemistry/specific_heat/copper_json', endpoint='/specific_heat/copper_json')
+def index():
+    return render_template('json/chemistry/specific_heat/copper.json')
+
+@app.route('/chemistry/specific_heat/cork_json', endpoint='/specific_heat/cork_json')
+def index():
+    return render_template('json/chemistry/specific_heat/cork.json')
+
+@app.route('/chemistry/specific_heat/cotton_json', endpoint='/specific_heat/cotton_json')
+def index():
+    return render_template('json/chemistry/specific_heat/cotton.json')
+
+@app.route('/chemistry/specific_heat/diamond_json', endpoint='/specific_heat/diamond_json')
+def index():
+    return render_template('json/chemistry/specific_heat/diamond.json')
+
+@app.route('/chemistry/specific_heat/earth_json', endpoint='/specific_heat/earth_json')
+def index():
+    return render_template('json/chemistry/specific_heat/earth.json')
+
+@app.route('/chemistry/specific_heat/glass_json', endpoint='/specific_heat/glass_json')
+def index():
+    return render_template('json/chemistry/specific_heat/glass.json')
+
+@app.route('/chemistry/specific_heat/gold_json', endpoint='/specific_heat/gold_json')
+def index():
+    return render_template('json/chemistry/specific_heat/gold.json')
+
+@app.route('/chemistry/specific_heat/ice_json', endpoint='/specific_heat/ice_json')
+def index():
+    return render_template('json/chemistry/specific_heat/ice.json')
+
+@app.route('/chemistry/specific_heat/iron_json', endpoint='/specific_heat/iron_json')
+def index():
+    return render_template('json/chemistry/specific_heat/iron.json')
+
+@app.route('/chemistry/specific_heat/lead_json', endpoint='/specific_heat/lead_json')
+def index():
+    return render_template('json/chemistry/specific_heat/lead.json')
+
+@app.route('/chemistry/specific_heat/leather_json', endpoint='/specific_heat/leather_json')
+def index():
+    return render_template('json/chemistry/specific_heat/leather.json')
+
+@app.route('/chemistry/specific_heat/mercury_json', endpoint='/specific_heat/mercury_json')
+def index():
+    return render_template('json/chemistry/specific_heat/mercury.json')
+
+@app.route('/chemistry/specific_heat/nickel_json', endpoint='/specific_heat/nickel_json')
+def index():
+    return render_template('json/chemistry/specific_heat/nickel.json')
+
+@app.route('/chemistry/specific_heat/oak_wood_json', endpoint='/specific_heat/oak_wood_json')
+def index():
+    return render_template('json/chemistry/specific_heat/oak_wood.json')
+
+@app.route('/chemistry/specific_heat/paper_json', endpoint='/specific_heat/paper_json')
+def index():
+    return render_template('json/chemistry/specific_heat/paper.json')
+
+@app.route('/chemistry/specific_heat/plaster_json', endpoint='/specific_heat/plaster_json')
+def index():
+    return render_template('json/chemistry/specific_heat/plaster.json')
+
+@app.route('/chemistry/specific_heat/rubber_json', endpoint='/specific_heat/rubber_json')
+def index():
+    return render_template('json/chemistry/specific_heat/rubber.json')
+
+@app.route('/chemistry/specific_heat/salt_json', endpoint='/specific_heat/salt_json')
+def index():
+    return render_template('json/chemistry/specific_heat/salt.json')
+
+@app.route('/chemistry/specific_heat/sand_json', endpoint='/specific_heat/sand_json')
+def index():
+    return render_template('json/chemistry/specific_heat/sand.json')
+
+@app.route('/chemistry/specific_heat/silicon_json', endpoint='/specific_heat/silicon_json')
+def index():
+    return render_template('json/chemistry/specific_heat/silicon.json')
+
+@app.route('/chemistry/specific_heat/steel_json', endpoint='/specific_heat/steel_json')
+def index():
+    return render_template('json/chemistry/specific_heat/steel.json')
+
+@app.route('/chemistry/specific_heat/stone_json', endpoint='/specific_heat/stone_json')
+def index():
+    return render_template('json/chemistry/specific_heat/stone.json')
+
+@app.route('/chemistry/specific_heat/tin_json', endpoint='/specific_heat/tin_json')
+def index():
+    return render_template('json/chemistry/specific_heat/tin.json')
+
+@app.route('/chemistry/specific_heat/tungsten_json', endpoint='/specific_heat/tungsten_json')
+def index():
+    return render_template('json/chemistry/specific_heat/tungsten.json')
+
+@app.route('/chemistry/specific_heat/uranium_json', endpoint='/specific_heat/uranium_json')
+def index():
+    return render_template('json/chemistry/specific_heat/uranium.json')
+
+
+
+
 """Biology Constants"""
 
 @app.route('/biology/blood_volume_of_human_json', endpoint='/biology/blood_volume_of_human_json')

@@ -1,0 +1,9 @@
+{
+"value": 273.15,
+"symbol": "m",
+"subscript": "p",
+"units": "Kelvin",
+"name": "Melting Point of Ice", 
+"citation": "http://jpcrd.aip.org/resource/1/jpcrbu/v35/i2/p1021_s1?isAuthorized=no",
+"url":"http://www.constants.datanab.net/chemistry/melting_point/ice_json"
+}

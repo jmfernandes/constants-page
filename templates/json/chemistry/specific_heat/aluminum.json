@@ -1,0 +1,9 @@
+{
+"value": 870,
+"symbol": "c",
+"subscript": "p",
+"units": "Joule/(kilogram*Kelvin)",
+"name": "Specific Heat of Aluminum", 
+"citation": "http://www.engineeringtoolbox.com/specific-heat-solids-d_154.html",
+"url":"http://www.constants.datanab.net/chemistry/specific_heat/aluminum_json"
+}

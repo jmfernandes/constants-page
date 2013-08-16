@@ -1,0 +1,9 @@
+{
+"value": 1687.0,
+"symbol": "m",
+"subscript": "p",
+"units": "Kelvin",
+"name": "Melting Point of Silicon", 
+"citation": "http://www.ioffe.ru/SVA/NSM/Semicond/Si/",
+"url":"http://www.constants.datanab.net/chemistry/melting_point/silicon_json"
+}

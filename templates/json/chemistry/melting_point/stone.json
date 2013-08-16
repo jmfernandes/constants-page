@@ -1,0 +1,9 @@
+{
+"value": 1488.15,
+"symbol": "m",
+"subscript": "p",
+"units": "Kelvin",
+"name": "Melting Point of Granite", 
+"citation": "http://webpages.sdsmt.edu/~lstetler/merlot/rock_mechanics.htm",
+"url":"http://www.constants.datanab.net/chemistry/melting_point/stone_json"
+}

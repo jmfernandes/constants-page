@@ -1,0 +1,9 @@
+{
+"value": 917,
+"symbol": "c",
+"subscript": "p",
+"units": "kilogram/meters^3",
+"name": "Density of Ice", 
+"citation": "http://www.engineeringtoolbox.com/density-solids-d_1265.html",
+"url":"http://www.constants.datanab.net/chemistry/density/ice_json"
+}

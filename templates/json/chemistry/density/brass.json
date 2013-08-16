@@ -1,0 +1,9 @@
+{
+"value": 8480,
+"symbol": "c",
+"subscript": "p",
+"units": "kilogram/meters^3",
+"name": "Density of Brass", 
+"citation": "http://www.engineeringtoolbox.com/density-solids-d_1265.html",
+"url":"http://www.constants.datanab.net/chemistry/density/brass_json"
+}

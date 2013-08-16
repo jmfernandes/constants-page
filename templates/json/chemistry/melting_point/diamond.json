@@ -1,0 +1,9 @@
+{
+"value": 3823.15,
+"symbol": "m",
+"subscript": "p",
+"units": "Kelvin",
+"name": "Melting Point of Diamond", 
+"citation": "http://invsee.asu.edu/nmodules/carbonmod/point.html",
+"url":"http://www.constants.datanab.net/chemistry/melting_point/diamond_json"
+}
