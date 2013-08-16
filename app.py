@@ -247,9 +247,9 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
-@app.route('/chemistry/density/Iron', endpoint='density/Iron')
+@app.route('/chemistry/density/iron', endpoint='density/iron')
 def index():
-    json_file = open('templates/json/chemistry/density/Iron.json')
+    json_file = open('templates/json/chemistry/density/iron.json')
     data = json.load(json_file)
     json_file.close()
     return  render_template('webpage.html',data=data)
@@ -494,9 +494,9 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
-@app.route('/chemistry/melting_point/Iron', endpoint='melting_point/Iron')
+@app.route('/chemistry/melting_point/iron', endpoint='melting_point/iron')
 def index():
-    json_file = open('templates/json/chemistry/melting_point/Iron.json')
+    json_file = open('templates/json/chemistry/melting_point/iron.json')
     data = json.load(json_file)
     json_file.close()
     return  render_template('webpage.html',data=data)
@@ -741,9 +741,9 @@ def index():
     json_file.close()
     return  render_template('webpage.html',data=data)
 
-@app.route('/chemistry/specific_heat/Iron', endpoint='specific_heat/Iron')
+@app.route('/chemistry/specific_heat/iron', endpoint='specific_heat/iron')
 def index():
-    json_file = open('templates/json/chemistry/specific_heat/Iron.json')
+    json_file = open('templates/json/chemistry/specific_heat/iron.json')
     data = json.load(json_file)
     json_file.close()
     return  render_template('webpage.html',data=data)
@@ -1906,9 +1906,9 @@ def index():
 def index():
     return render_template('json/chemistry/density/ice.json')
 
-@app.route('/chemistry/density/Iron_json', endpoint='/density/Iron_json')
+@app.route('/chemistry/density/iron_json', endpoint='/density/iron_json')
 def index():
-    return render_template('json/chemistry/density/Iron.json')
+    return render_template('json/chemistry/density/iron.json')
 
 @app.route('/chemistry/density/lead_json', endpoint='/density/lead_json')
 def index():
@@ -2048,9 +2048,9 @@ def index():
 def index():
     return render_template('json/chemistry/melting_point/ice.json')
 
-@app.route('/chemistry/melting_point/Iron_json', endpoint='/melting_point/Iron_json')
+@app.route('/chemistry/melting_point/iron_json', endpoint='/melting_point/iron_json')
 def index():
-    return render_template('json/chemistry/melting_point/Iron.json')
+    return render_template('json/chemistry/melting_point/iron.json')
 
 @app.route('/chemistry/melting_point/lead_json', endpoint='/melting_point/lead_json')
 def index():
@@ -2189,9 +2189,9 @@ def index():
 def index():
     return render_template('json/chemistry/specific_heat/ice.json')
 
-@app.route('/chemistry/specific_heat/Iron_json', endpoint='/specific_heat/Iron_json')
+@app.route('/chemistry/specific_heat/iron_json', endpoint='/specific_heat/iron_json')
 def index():
-    return render_template('json/chemistry/specific_heat/Iron.json')
+    return render_template('json/chemistry/specific_heat/iron.json')
 
 @app.route('/chemistry/specific_heat/lead_json', endpoint='/specific_heat/lead_json')
 def index():
@@ -2746,5 +2746,5 @@ def index():
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
-    port = int(os.envIron.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port)
