@@ -1,7 +1,7 @@
 {
 "value": 1700,
-"symbol": "c",
-"subscript": "p",
+"symbol": "ρ",
+"subscript": "",
 "units": "kilogram/meters^3",
 "name": "Density of Bone", 
 "citation": "http://www.engineeringtoolbox.com/density-solids-d_1265.html",

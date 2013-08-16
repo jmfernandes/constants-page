@@ -1,7 +1,7 @@
 {
 "value": 720,
-"symbol": "c",
-"subscript": "p",
+"symbol": "ρ",
+"subscript": "",
 "units": "kilogram/meters^3",
 "name": "Density of Oak Wood", 
 "citation": "http://www.engineeringtoolbox.com/density-solids-d_1265.html",
