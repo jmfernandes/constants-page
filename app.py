@@ -3,8 +3,8 @@ from flask import Flask, render_template, json, request, redirect
 
 app = Flask(__name__)
 
-@app.before_request
-def before_request():
+@app.before_first_request
+def before_first_request():
     if request.url.startswith('http://'):
         url = request.url.replace('http://', 'https://', 1)
         code = 301
@@ -17,6 +17,8 @@ def page_not_found(error):
 @app.route('/')
 def index():
     return render_template('Constants.html')
+
+"""Physics Web Pages"""
 
 @app.route('/physics/planck_constant', endpoint='planck_constant')
 def index():
