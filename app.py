@@ -1,7 +1,6 @@
 import os
 from flask import Flask, render_template, json, request, redirect
 
-
 app = Flask(__name__)
 
 @app.before_first_request
@@ -17,7 +16,7 @@ def page_not_found(error):
 
 @app.route('/')
 def index():
-    return  render_template('Constants.html')
+    return render_template('Constants.html')
 
 @app.route('/physics/planck_constant', endpoint='planck_constant')
 def index():
