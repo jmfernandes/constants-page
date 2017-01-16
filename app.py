@@ -3,8 +3,8 @@ from flask import Flask, render_template, json, request, redirect
 
 app = Flask(__name__)
 
-@app.before_first_request
-def before_first_request():
+@app.before_request
+def before_request():
     if request.url.startswith('http://'):
         url = request.url.replace('http://', 'https://', 1)
         code = 301
