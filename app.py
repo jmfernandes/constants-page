@@ -1,14 +1,17 @@
 import os
 from flask import Flask, render_template, json, request, redirect
+from urlparse import urlparse, urlunparse
 
 app = Flask(__name__)
 
-@app.before_first_request
-def before_first_request():
-    if request.url.startswith('http://'):
-        url = request.url.replace('http://', 'https://', 1)
-        code = 301
-        return redirect(url, code=code)
+@app.before_request
+def redirect_nonwww():
+    """Redirect non-www requests to www."""
+    urlparts = urlparse(request.url)
+    if urlparts.netloc == 'constants.datanab.net':
+        urlparts_list = list(urlparts)
+        urlparts_list[1] = 'www.constants.datanab.net'
+        return redirect(urlunparse(urlparts_list), code=301)
 
 @app.errorhandler(404)
 def page_not_found(error):
